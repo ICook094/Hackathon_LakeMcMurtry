@@ -5,14 +5,11 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
-import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
 import com.example.hackathon_lakemcmurtry.databinding.FragmentMapBinding
-import com.google.android.gms.maps.OnMapReadyCallback
-import com.google.android.gms.maps.SupportMapFragment
 
-class MapFragment : Fragment(), AppCompatActivity(), OnMapReadyCallback {
+class MapFragment : Fragment() {
 
     private var _binding: FragmentMapBinding? = null
 
@@ -20,24 +17,13 @@ class MapFragment : Fragment(), AppCompatActivity(), OnMapReadyCallback {
     // onDestroyView.
     private val binding get() = _binding!!
 
-
-    override fun onCreate(savedInstanceState: Bundle?) {
-        super<Fragment>.onCreate(savedInstanceState)
-        setContentView(com.example.hackathon_lakemcmurtry.R.layout.fragment_map)
-    }
     override fun onCreateView(
         inflater: LayoutInflater,
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View {
-        val mapFragment = SupportMapFragment.newInstance()
-        supportFragmentManager
-            .beginTransaction()
-            .add(com.example.hackathon_lakemcmurtry.R.id.fragment, mapFragment)
-            .commit()
-
         val dashboardViewModel =
-            ViewModelProvider(this).get(MapViewModel::class.java)
+            ViewModelProvider(this)[MapViewModel::class.java]
 
         _binding = FragmentMapBinding.inflate(inflater, container, false)
         val root: View = binding.root
