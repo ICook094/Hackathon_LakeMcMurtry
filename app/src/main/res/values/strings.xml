@@ -1,8 +1,8 @@
 <resources>
     <string name="app_name">Hackathon_LakeMcMurtry</string>
     <string name="title_home">Home</string>
-    <string name="title_map">Map</string>
-    <string name="title_moreInfo">More Information</string>
-    <string name="title_search">Search</string>
-    <string name="title_menu">Menu</string>
+    <string name="title_map">Park Map</string>
+    <string name="title_RSVPParking">RSVP and Parking</string>
+    <string name="title_support">Shop</string>
+    <string name="title_about">About</string>
 </resources>
