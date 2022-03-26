@@ -1,4 +1,4 @@
-package com.example.hackathon_lakemcmurtry.ui.about
+package com.example.hackathon_lakemcmurtry.ui.support
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -23,7 +23,7 @@ class SupportFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View {
         val notificationsViewModel =
-            ViewModelProvider(this).get(RSVPParkingViewModel::class.java)
+            ViewModelProvider(this).get(SupportViewModel::class.java)
 
         _binding = FragmentSupportBinding.inflate(inflater, container, false)
         val root: View = binding.root

@@ -1,4 +1,4 @@
-package com.example.hackathon_lakemcmurtry.ui.about
+package com.example.hackathon_lakemcmurtry.ui.RSVPParking
 
 import android.os.Bundle
 import android.view.LayoutInflater

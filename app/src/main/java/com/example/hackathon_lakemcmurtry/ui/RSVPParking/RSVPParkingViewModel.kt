@@ -1,4 +1,4 @@
-package com.example.hackathon_lakemcmurtry.ui.about
+package com.example.hackathon_lakemcmurtry.ui.RSVPParking
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
