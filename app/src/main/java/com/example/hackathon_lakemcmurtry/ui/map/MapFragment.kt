@@ -9,7 +9,7 @@ import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
 import com.example.hackathon_lakemcmurtry.databinding.FragmentMapBinding
 
-class MapFragment : Fragment() {
+class MapFragment : Fragment(), AppCompatActivity(), OnMapReadyCallback() {
 
     private var _binding: FragmentMapBinding? = null
 
@@ -17,11 +17,22 @@ class MapFragment : Fragment() {
     // onDestroyView.
     private val binding get() = _binding!!
 
+
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        setContentView(com.example.hackathon_lakemcmurtry.R.layout.AndroidManifest)
+    }
     override fun onCreateView(
         inflater: LayoutInflater,
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View {
+        val mapFragment = SupportMapFragment.newInstance()
+        supportFragmentManager
+            .beginTransaction()
+            .add(com.example.hackathon_lakemcmurtry.R.id.my_container, mapFragment)
+            .commit()
+
         val dashboardViewModel =
             ViewModelProvider(this).get(MapViewModel::class.java)
 
