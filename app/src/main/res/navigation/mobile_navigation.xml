@@ -12,14 +12,27 @@
         tools:layout="@layout/fragment_home" />
 
     <fragment
-        android:id="@+id/navigation_dashboard"
-        android:name="com.example.hackathon_lakemcmurtry.ui.dashboard.DashboardFragment"
-        android:label="@string/title_dashboard"
-        tools:layout="@layout/fragment_dashboard" />
+        android:id="@+id/navigation_map"
+        android:name="com.example.hackathon_lakemcmurtry.ui.map.MapFragment"
+        android:label="@string/title_map"
+        tools:layout="@layout/fragment_map" />
 
     <fragment
-        android:id="@+id/navigation_notifications"
-        android:name="com.example.hackathon_lakemcmurtry.ui.notifications.NotificationsFragment"
-        android:label="@string/title_notifications"
-        tools:layout="@layout/fragment_notifications" />
+        android:id="@+id/navigation_moreInfo"
+        android:name="com.example.hackathon_lakemcmurtry.ui.search.MenuFragment"
+        android:label="@string/title_moreInfo"
+        tools:layout="@layout/fragment_moreinformation" />
+
+    <fragment
+        android:id="@+id/navigation_search"
+        android:name="com.example.hackathon_lakemcmurtry.ui.map.MapFragment"
+        android:label="@string/title_search"
+        tools:layout="@layout/fragment_search" />
+
+    <fragment
+        android:id="@+id/navigation_menu"
+        android:name="com.example.hackathon_lakemcmurtry.ui.search.MenuFragment"
+        android:label="@string/title_menu"
+        tools:layout="@layout/fragment_menu" />
+
 </navigation>
