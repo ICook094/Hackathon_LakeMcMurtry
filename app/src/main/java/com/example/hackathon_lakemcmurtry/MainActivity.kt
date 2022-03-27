@@ -101,6 +101,12 @@ class MainActivity : AppCompatActivity() {
         }
         startActivity(intent)
     }
+    fun genGiveMoney(view: View) {
+        val intent = Intent(this,Donateallurmoneytomeordie::class.java).apply {
+
+        }
+        startActivity(intent)
+    }
 
 
     fun WildlifeActivity(view: View) {

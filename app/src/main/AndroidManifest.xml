@@ -32,6 +32,9 @@
             android:name=".ContactActivity"
             android:exported="false" />
         <activity
+            android:name=".Donateallurmoneytomeordie"
+            android:exported="false"/>
+        <activity
             android:name=".PartnerActivity"
             android:exported="false" />
         <activity
