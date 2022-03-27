@@ -15,7 +15,10 @@
         <item>Disc Golf Course Maps</item>
         <item>Lake Map</item>
         <item>Fish Attractor Map</item>
+
+
     </string-array>
+    <string name = "selectcampsite">Select a Campsite</string>
     <string-array name="RSVP">
         <item>East RV Campsites</item>
         <item>West RV Campsites</item>
