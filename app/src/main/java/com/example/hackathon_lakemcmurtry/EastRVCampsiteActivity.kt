@@ -10,6 +10,7 @@ import android.widget.Toast
 class EastRVCampsiteActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        title = "East RV Campsite"
         setContentView(R.layout.fragment_eastrv)
         // Get the Intent that started this activity and extract the string
         //val message = intent.getStringExtra(EXTRA_MESSAGE)

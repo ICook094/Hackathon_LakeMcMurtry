@@ -128,6 +128,8 @@
     <string name="text_hikingBiking">Hiking and Mountain Biking</string>
     <string name="text_kayaking">Kayaking</string>
     <string name="text_pavilition">Pavilion Rentals</string>
+    <string name="text_amenity">Amenities</string>
+    <string name="text_rulesRegs">Rules and Regulations</string>
 
 
     //About Us Strings

@@ -11,6 +11,7 @@ class GenCampsiteActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        title = "General Campsites"
         setContentView(R.layout.activity_campsites)
     }
 

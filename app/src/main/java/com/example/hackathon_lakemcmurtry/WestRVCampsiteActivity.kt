@@ -6,6 +6,7 @@ import android.os.Bundle
 class WestRVCampsiteActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        title = "West RV Campsites"
         setContentView(R.layout.fragment_westrv)
         // Get the Intent that started this activity and extract the string
         //val message = intent.getStringExtra(EXTRA_MESSAGE)

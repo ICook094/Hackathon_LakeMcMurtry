@@ -56,7 +56,6 @@ class MainActivity : AppCompatActivity() {
             startActivity(intent)
         }
 
-
 //        val mapspinner: Spinner = findViewById(R.id.map_spinner)!!
 //        ArrayAdapter.createFromResource(
 //            this,
@@ -97,7 +96,6 @@ class MainActivity : AppCompatActivity() {
         startActivity(intent)
     }
 
-
     fun WildlifeActivity(view: View) {
         val intent = Intent(this, WildlifeActivity::class.java).apply {
 
@@ -132,7 +130,10 @@ class MainActivity : AppCompatActivity() {
         startActivity(intent)
     }
 
-
+    fun AmenityActivity(view: View) {
+        val intent = Intent(this, AmenityActivity::class.java).apply {}
+        startActivity(intent)
+    }
 
     fun onClickOpenDirectionsToLake(view: View) {
         // Do something in response to button click
@@ -141,7 +142,6 @@ class MainActivity : AppCompatActivity() {
 //        mapIntent.setPackage("com.google.android.apps.maps")
 //        startActivity(mapIntent)
 
-
         val uri: String = java.lang.String.format(
             Locale.ENGLISH,
             "http://maps.google.com/maps?q=loc:%f,%f",
@@ -149,9 +149,5 @@ class MainActivity : AppCompatActivity() {
         )
         val intent = Intent(Intent.ACTION_VIEW, Uri.parse(uri))
         startActivity(intent)
-
-
     }
-
-
 }
