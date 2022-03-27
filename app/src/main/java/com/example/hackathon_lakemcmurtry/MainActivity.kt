@@ -4,12 +4,18 @@ import android.content.Intent
 import android.net.Uri
 import android.os.Bundle
 import android.view.View
+import android.app.Activity
+import android.net.Uri
+import android.widget.RadioButton
+import android.widget.Toast
+import com.google.android.material.bottomnavigation.BottomNavigationView
 import androidx.appcompat.app.AppCompatActivity
 import androidx.navigation.findNavController
 import androidx.navigation.ui.AppBarConfiguration
 import androidx.navigation.ui.setupActionBarWithNavController
 import androidx.navigation.ui.setupWithNavController
 import com.example.hackathon_lakemcmurtry.databinding.ActivityMainBinding
+import com.google.android.material.snackbar.Snackbar
 import com.google.android.material.bottomnavigation.BottomNavigationView
 import java.util.*
 
@@ -38,7 +44,13 @@ class MainActivity : AppCompatActivity() {
         setupActionBarWithNavController(navController, appBarConfiguration)
         navView.setupWithNavController(navController)
 
-//        val fab: View = findViewById(com.example.hackathon_lakemcmurtry.R.)
+        val fab: View = findViewById(com.example.hackathon_lakemcmurtry.R.id.fab)
+        fab.setOnClickListener { view ->
+            Toast.makeText(getApplicationContext(), "Contacting Emergency Services", Toast.LENGTH_LONG).show()
+            val intent : Intent = Intent(Intent.ACTION_DIAL)
+            intent.setData(Uri.parse("tel:18329204035"))
+            startActivity(intent)
+        }
 //        val mapspinner: Spinner = findViewById(R.id.map_spinner)!!
 //        ArrayAdapter.createFromResource(
 //            this,
@@ -61,10 +73,10 @@ class MainActivity : AppCompatActivity() {
         startActivity(intent)
     }
     fun genCampsiteActivity(view: View) {
-        val intent1 = Intent(this, GenCampsiteActivity::class.java).apply {
+        val intent = Intent(this, GenCampsiteActivity::class.java).apply {
            // putExtra(EXTRA_MESSAGE, "test")
         }
-        startActivity(intent1)
+        startActivity(intent)
     }
     fun genEastRVCampsiteActivity(view: View) {
         val intent4 = Intent(this, EastRVCampsiteActivity::class.java).apply {
@@ -79,12 +91,38 @@ class MainActivity : AppCompatActivity() {
         startActivity(intent5)
     }
 
-
-    fun getRules(view: View) {
-        val intent2 = Intent(this, RuleActivity::class.java).apply {
+    fun WildlifeActivity(view: View) {
+        val intent = Intent(this, WildlifeActivity::class.java).apply {
 
         }
-        startActivity(intent2)
+        startActivity(intent)
+    }
+
+    fun RulesActivity(view: View) {
+        val intent = Intent(this, RulesActivity::class.java).apply {
+
+        }
+        startActivity(intent)
+    }
+
+    fun HistoryActivity(view: View) {
+        val intent = Intent(this, HistoryActivity::class.java).apply {}
+        startActivity(intent)
+    }
+
+    fun EduActivity(view: View) {
+        val intent = Intent(this, EduActivity::class.java).apply {}
+        startActivity(intent)
+    }
+
+    fun PartnerActivity(view: View) {
+        val intent = Intent(this, PartnerActivity::class.java).apply {}
+        startActivity(intent)
+    }
+
+    fun ContactActivity(view: View) {
+        val intent = Intent(this, ContactActivity::class.java).apply {}
+        startActivity(intent)
     }
 
     fun onClickOpenDirectionsToLake(view: View) {
