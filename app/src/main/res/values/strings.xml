@@ -34,6 +34,7 @@
 
     <!-- Home Strings -->
     <string name="text_textlakeMission">The mission of Lake McMurtry Friends is to enrich the quality of life by providing opportunities to engage in sustainable outdoor recreation, environmental education, and nature conservation.</string>
+    <string name="text_Location">29180 Chisholm Curve Stillwater, OK 74075</string>
     <string name="text_textContactLabel">Contact Information</string>
     <string name="text_phoneMain">405-747-8085</string>
     <string name="text_emailMain">Info@lakemcmurtry.org</string>
