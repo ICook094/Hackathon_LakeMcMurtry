@@ -58,16 +58,17 @@ class MainActivity : AppCompatActivity() {
         startActivity(intent)
     }
     fun genCampsiteActivity(view: View) {
-        val intent1 = Intent(this, GenCampsiteActivity::class.java).apply {
+        val intent = Intent(this, GenCampsiteActivity::class.java).apply {
            // putExtra(EXTRA_MESSAGE, "test")
         }
-        startActivity(intent1)
+        startActivity(intent)
     }
 
-    fun getRules(view: View) {
-        val intent2 = Intent(this, RuleActivity::class.java).apply {
+    fun RulesActivity(view: View) {
+        val intent = Intent(this, RulesActivity::class.java).apply {
 
         }
-        startActivity(intent2)
+        startActivity(intent)
     }
+
 }

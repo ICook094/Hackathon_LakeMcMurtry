@@ -17,14 +17,14 @@
         <item>Fish Attractor Map</item>
     </string-array>
 
-    <string name="campsitebutton" >Select Campsite</string>
-    <string name="erv" >East RV Campsites</string>
-    <string name="wrv" >West RV Campsites</string>
-    <string name="etent" >East Tent Campsites</string>
-    <string name="wtent" >West Tent Campsites</string>
-    <string name = "daypass" > Purchase Day Pass</string>
-    <string name="annual" > Purchase an Annual Pass</string>
-    <string name = "selectcampsite">Select a Campsite</string>
+    <string name="campsitebutton">Select Campsite</string>
+    <string name="erv">East RV Campsites</string>
+    <string name="wrv">West RV Campsites</string>
+    <string name="etent">East Tent Campsites</string>
+    <string name="wtent">West Tent Campsites</string>
+    <string name="daypass"> Purchase Day Pass</string>
+    <string name="annual"> Purchase an Annual Pass</string>
+    <string name="selectcampsite">Select a Campsite</string>
     <string-array name="RSVP">
         <item>East RV Campsites</item>
         <item>West RV Campsites</item>
@@ -51,6 +51,11 @@
     <string name="button_info">Park Info</string>
     <string name="button_rules">Rules</string>
     <string name="button_wildlife">Wildlife</string>
+    <string name="button_history">History</string>
+    <string name="button_edu">Educational</string>
+    <string name="button_partners">Partners</string>
+    <string name="button_contact">Contact</string>
+    //general info
     <string name="header_mission">Our Mission</string>
     <string name="header_purpose">Our Purpose</string>
     <string name="text_mission">The mission of Lake McMurtry Friends is to enrich quality of life by providing opportunities to engage in sustainable outdoor recreation, environmental education and nature conservation.</string>
@@ -60,7 +65,7 @@
     //Rules
     <string name="text_rules">- Permits are required for all vehicles and activities within the park.
         "\n"- Check In 3pm , Check out 1pm
-        "\n""\t"- All sites are reserveable online 24/7 therefore you must check in with park staff to camp.
+        "\n"- All sites are reserveable online 24/7 therefore you must check in with park staff to camp.
         "\n"- Alcoholic beverages are prohibited on all Lake McMurtry property.
         "\n"- Daily permits expire at 10:00 pm.
         "\n"- Quiet hours are from 10:00 pm to 7:00 am. Generators are generally not permitted, please check with park staff for more information.
