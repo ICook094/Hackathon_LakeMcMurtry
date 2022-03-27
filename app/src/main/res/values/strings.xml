@@ -16,6 +16,12 @@
         <item>Lake Map</item>
         <item>Fish Attractor Map</item>
     </string-array>
+    <string-array name="RSVP">
+        <item>East RV Campsites</item>
+        <item>West RV Campsites</item>
+        <item>East Tent Campsites</item>
+        <item>West Tent Campsites</item>
+    </string-array>
 
     <!-- Home Strings -->
     <string name="text_textlakeMission">The mission of Lake McMurtry Friends is to enrich the quality of life by providing opportunities to engage in sustainable outdoor recreation, environmental education, and nature conservation.</string>
