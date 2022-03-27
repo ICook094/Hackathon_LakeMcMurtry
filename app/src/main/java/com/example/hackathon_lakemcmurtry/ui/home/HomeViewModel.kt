@@ -6,8 +6,8 @@ import androidx.lifecycle.ViewModel
 
 class HomeViewModel : ViewModel() {
 
-    private val _text = MutableLiveData<String>().apply {
-        value = "This is home Fragment"
+    private val textLakeMission = MutableLiveData<String>().apply {
+        value = "The mission of Lake McMurtry Friends is to enrich the quality of life by providing opportunities to engage in sustainable outdoor recreation, environmental education, and nature conservation."
     }
-    val text: LiveData<String> = _text
+    val textLakeMissionValue: LiveData<String> = textLakeMission
 }

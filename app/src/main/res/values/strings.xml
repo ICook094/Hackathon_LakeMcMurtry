@@ -5,4 +5,20 @@
     <string name="title_RSVPParking">RSVP</string>
     <string name="title_support">Shop</string>
     <string name="title_about">About</string>
+
+    <!-- Home Strings -->
+    <string name="text_textlakeMission">The mission of Lake McMurtry Friends is to enrich the quality of life by providing opportunities to engage in sustainable outdoor recreation, environmental education, and nature conservation.</string>
+    <string name="text_textContactLabel">Contact Information</string>
+    <string name="text_phoneMain">405-747-8085</string>
+    <string name="text_emailMain">Info@lakemcmurtry.org</string>
+    <string name="text_textAfterHoursContact">After Hours Contact</string>
+    <string name="text_textEastCampHost">East Camp Host</string>
+    <string name="text_phoneEastCampHost">405-747-4688</string>
+    <string name="text_emailEastCampHost">ranger@lakemcmurtry.org</string>
+    <string name="text_textWestCampHost">West Camp Host</string>
+    <string name="text_phoneWestCampHost">405-858-0203</string>
+    <string name="text_emailWestCampHost">camphost@lakemcmurtry.org</string>
+    <string name="text_textStillwaterPolice">Stillwater Police Department</string>
+    <string name="text_phoneStillwaterPolice">405-372-4171 </string>
+
 </resources>
