@@ -123,6 +123,11 @@ class MainActivity : AppCompatActivity() {
         startActivity(intent)
     }
 
+    fun AmenityActivity(view: View) {
+        val intent = Intent(this, AmenityActivity::class.java).apply {}
+        startActivity(intent)
+    }
+
     fun onClickOpenDirectionsToLake(view: View) {
         // Do something in response to button click
 //        val gmmIntentUri: Uri = Uri.parse("geo:36.18119247058171, -97.17453737109192")

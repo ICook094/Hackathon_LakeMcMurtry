@@ -13,6 +13,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Hackathon_LakeMcMurtry">
         <activity
+            android:name=".AmenityActivity"
+            android:exported="false" />
+        <activity
             android:name=".InvasiveActivity"
             android:exported="false" />
         <activity
