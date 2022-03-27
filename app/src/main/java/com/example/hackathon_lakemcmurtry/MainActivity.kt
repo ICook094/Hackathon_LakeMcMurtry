@@ -1,8 +1,8 @@
 package com.example.hackathon_lakemcmurtry
 
+import android.content.Intent
 import android.os.Bundle
-import android.widget.ArrayAdapter
-import android.widget.Spinner
+import android.view.View
 import com.google.android.material.bottomnavigation.BottomNavigationView
 import androidx.appcompat.app.AppCompatActivity
 import androidx.navigation.findNavController
@@ -10,6 +10,8 @@ import androidx.navigation.ui.AppBarConfiguration
 import androidx.navigation.ui.setupActionBarWithNavController
 import androidx.navigation.ui.setupWithNavController
 import com.example.hackathon_lakemcmurtry.databinding.ActivityMainBinding
+
+const val EXTRA_MESSAGE = "com.example.hackathon_lakemcmurtry.MESSAGE"
 
 class MainActivity : AppCompatActivity() {
 
@@ -34,19 +36,26 @@ class MainActivity : AppCompatActivity() {
         setupActionBarWithNavController(navController, appBarConfiguration)
         navView.setupWithNavController(navController)
 
-//        val maps = resources.getStringArray(R.array.map_spinner)
-//        val mapspinner: Spinner = findViewById(R.id.map_spinner)
-//        if(mapspinner != null) {
-//            ArrayAdapter.createFromResource(
-//                this,
-//                R.array.map_spinner,
-//                android.R.layout.simple_spinner_dropdown_item
-//            ).also { adapter ->
-//                adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item)
-//                mapspinner.adapter = adapter
-//            }
+//        val mapspinner: Spinner = findViewById(R.id.map_spinner)!!
+//        ArrayAdapter.createFromResource(
+//            this,
+//            R.array.map_spinner,
+//            android.R.layout.simple_spinner_dropdown_item
+//        ).also { adapter ->
+//            adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item)
+//            mapspinner.adapter = adapter
 //        }
 
+
+    }
+    fun genInfoActivity(view: View) {
+        // Do something in response to button
+        //val editText = findViewById<EditText>(R.id.editTextTextPersonName)
+        //val message = editText.text.toString()
+        val intent = Intent(this, GenInfoActivity::class.java).apply {
+            putExtra(EXTRA_MESSAGE, "test")
+        }
+        startActivity(intent)
     }
 
 }

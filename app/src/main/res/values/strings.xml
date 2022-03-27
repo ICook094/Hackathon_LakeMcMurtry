@@ -15,7 +15,10 @@
         <item>Disc Golf Course Maps</item>
         <item>Lake Map</item>
         <item>Fish Attractor Map</item>
+
+
     </string-array>
+    <string name = "selectcampsite">Select a Campsite</string>
     <string-array name="RSVP">
         <item>East RV Campsites</item>
         <item>West RV Campsites</item>
@@ -38,5 +41,15 @@
     <string name="text_textStillwaterPolice">Stillwater Police Department</string>
     <string name="text_phoneStillwaterPolice">405-372-4171 </string>
 
+    //About Us Strings
+    <string name="button_info">Park Info</string>
+    <string name="button_rules">Rules</string>
+    <string name="button_wildlife">Wildlife</string>
+    <string name="header_mission">Our Mission</string>
+    <string name="header_purpose">Our Purpose</string>
+    <string name="text_mission">The mission of Lake McMurtry Friends is to enrich quality of life by providing opportunities to engage in sustainable outdoor recreation, environmental education and nature conservation.</string>
+    <string name="text_purpose">Lake McMurtry Friends, Inc. was formed to manage and protect the lake, but more than that we are organized to promote outdoor recreation and leisure, scientific and educational study, and community involvement. We are a small group of individuals who want to see Lake McMurtry succeed and continue to be available to the general public for generations to come. After all this park belongs to the people of our community and we wish to represent that each and every day!
+</string>
+    <string name="text_disclaimer">Lake McMurtry Friends, Inc. is a private 501 (c)3  non-profit organization.</string>
 
 </resources>
