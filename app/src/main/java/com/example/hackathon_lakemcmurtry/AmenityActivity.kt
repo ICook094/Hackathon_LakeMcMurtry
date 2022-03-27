@@ -3,10 +3,10 @@ package com.example.hackathon_lakemcmurtry
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 
-class InvasiveActivity : AppCompatActivity() {
+class AmenityActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        title = "Invasive Species"
-        setContentView(R.layout.activity_invasive)
+        title = "Amenities"
+        setContentView(R.layout.activity_amenity)
     }
 }

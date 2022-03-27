@@ -7,6 +7,7 @@ import android.widget.TextView
 class GenInfoActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        title = "Park Information"
         setContentView(R.layout.activity_geninfo)
         // Get the Intent that started this activity and extract the string
         //val message = intent.getStringExtra(EXTRA_MESSAGE)

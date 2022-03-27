@@ -8,6 +8,7 @@ import android.view.View
 class WildlifeActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        title = "Wildlife Information"
         setContentView(R.layout.activity_wildlife)
     }
 
