@@ -57,11 +57,6 @@ class MainActivity : AppCompatActivity() {
         }
 
 
-
-
-
-
-
 //        val mapspinner: Spinner = findViewById(R.id.map_spinner)!!
 //        ArrayAdapter.createFromResource(
 //            this,

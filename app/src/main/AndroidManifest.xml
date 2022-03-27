@@ -44,6 +44,9 @@
             android:name=".RulesActivity"
             android:exported="false" />
         <activity
+            android:name=".MapSpinnerActivity"
+            android:exported="false" />
+        <activity
             android:name=".GenInfoActivity"
             android:exported="false" />
         <activity
