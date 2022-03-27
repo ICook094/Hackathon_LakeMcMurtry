@@ -15,6 +15,8 @@ const val EXTRA_MESSAGE = "com.example.hackathon_lakemcmurtry.MESSAGE"
 
 class MainActivity : AppCompatActivity() {
 
+    
+
     private lateinit var binding: ActivityMainBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -57,5 +59,7 @@ class MainActivity : AppCompatActivity() {
         }
         startActivity(intent)
     }
+
+
 
 }

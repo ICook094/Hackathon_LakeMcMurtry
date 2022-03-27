@@ -18,7 +18,7 @@
 
 
     </string-array>
-    <string name = "selectcampsite">Select a Campsite</string>
+    <string name="selectcampsite">Select a Campsite</string>
     <string-array name="RSVP">
         <item>East RV Campsites</item>
         <item>West RV Campsites</item>
@@ -51,5 +51,7 @@
     <string name="text_purpose">Lake McMurtry Friends, Inc. was formed to manage and protect the lake, but more than that we are organized to promote outdoor recreation and leisure, scientific and educational study, and community involvement. We are a small group of individuals who want to see Lake McMurtry succeed and continue to be available to the general public for generations to come. After all this park belongs to the people of our community and we wish to represent that each and every day!
 </string>
     <string name="text_disclaimer">Lake McMurtry Friends, Inc. is a private 501 (c)3  non-profit organization.</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 
 </resources>

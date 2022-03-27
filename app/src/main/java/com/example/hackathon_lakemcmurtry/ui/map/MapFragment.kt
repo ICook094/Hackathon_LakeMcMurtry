@@ -5,8 +5,7 @@ import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.ArrayAdapter
-import android.widget.Spinner
+import android.widget.*
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
 import com.example.hackathon_lakemcmurtry.databinding.FragmentMapBinding
@@ -36,6 +35,8 @@ class MapFragment : Fragment() {
 
         return root
     }
+
+
 
     override fun onDestroyView() {
         super.onDestroyView()
