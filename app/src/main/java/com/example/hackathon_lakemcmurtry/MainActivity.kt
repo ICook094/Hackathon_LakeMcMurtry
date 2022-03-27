@@ -1,13 +1,12 @@
 package com.example.hackathon_lakemcmurtry
 
 import android.content.Intent
+import android.net.Uri
 import android.os.Bundle
 import android.view.View
 import android.app.Activity
-import android.net.Uri
 import android.widget.RadioButton
 import android.widget.Toast
-import com.google.android.material.bottomnavigation.BottomNavigationView
 import androidx.appcompat.app.AppCompatActivity
 import androidx.navigation.findNavController
 import androidx.navigation.ui.AppBarConfiguration
@@ -15,6 +14,8 @@ import androidx.navigation.ui.setupActionBarWithNavController
 import androidx.navigation.ui.setupWithNavController
 import com.example.hackathon_lakemcmurtry.databinding.ActivityMainBinding
 import com.google.android.material.snackbar.Snackbar
+import com.google.android.material.bottomnavigation.BottomNavigationView
+import java.util.*
 
 //const val EXTRA_MESSAGE = "com.example.hackathon_lakemcmurtry.MESSAGE"
 
@@ -123,4 +124,19 @@ class MainActivity : AppCompatActivity() {
         startActivity(intent)
     }
 
+    fun onClickOpenDirectionsToLake(view: View) {
+        // Do something in response to button click
+//        val gmmIntentUri: Uri = Uri.parse("geo:36.18119247058171, -97.17453737109192")
+//        val mapIntent: Intent = Intent(Intent.ACTION_VIEW, gmmIntentUri)
+//        mapIntent.setPackage("com.google.android.apps.maps")
+//        startActivity(mapIntent)
+
+        val uri: String = java.lang.String.format(
+            Locale.ENGLISH,
+            "http://maps.google.com/maps?q=loc:%f,%f",
+            36.1814573855416, -97.18165152501751
+        )
+        val intent = Intent(Intent.ACTION_VIEW, Uri.parse(uri))
+        startActivity(intent)
+    }
 }

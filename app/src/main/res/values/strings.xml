@@ -105,6 +105,7 @@
 
     <!-- Home Strings -->
     <string name="text_textlakeMission">The mission of Lake McMurtry Friends is to enrich the quality of life by providing opportunities to engage in sustainable outdoor recreation, environmental education, and nature conservation.</string>
+    <string name="text_Location">29180 Chisholm Curve Stillwater, OK 74075</string>
     <string name="text_textContactLabel">Contact Information</string>
     <string name="text_phoneMain">405-747-8085</string>
     <string name="text_emailMain">Info@lakemcmurtry.org</string>
@@ -155,5 +156,9 @@
         "\n"- Confetti is prohibited.
         "\n"- Removal of plants, animals, rocks, downed timber, artifacts or relics is prohibited without written permission from Lake McMurtry Friends, Inc. and/or the City of Stillwater.
         "\n"- The use of ATVs, LSVs, UTVs, and golf carts is prohibited on Lake McMurtry property.</string>
+    //wildlife
+    <string name="button_deer">Deer Diversity</string>
+    <string name="button_bird">Bird Diversity</string>
+    <string name="button_invasive">Invasive Species</string>
 
 </resources>
