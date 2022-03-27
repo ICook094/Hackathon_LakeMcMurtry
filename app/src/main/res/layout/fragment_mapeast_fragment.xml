@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".fragment_mapeast">
+
+    <fragment
+        android:id="@+id/map_east"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:cameraBearing="112.5"
+        app:cameraTargetLat="36.18318"
+        app:cameraTargetLng="-97.17462"
+        app:cameraTilt="30"
+        app:cameraZoom="15"
+        app:mapType="hybrid"
+        app:uiCompass="false"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="-91dp"/>
+
+</FrameLayout>
