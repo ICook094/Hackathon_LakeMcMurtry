@@ -46,6 +46,15 @@
     <string name="text_emailWestCampHost">camphost@lakemcmurtry.org</string>
     <string name="text_textStillwaterPolice">Stillwater Police Department</string>
     <string name="text_phoneStillwaterPolice">405-372-4171 </string>
+    <string name="text_Amenities">Amenities</string>
+    <string name="text_AdventureCamp">Adventure Camp</string>
+    <string name="text_camping">Camping</string>
+    <string name="text_diskGold">Disk Golf</string>
+    <string name="text_fishing">Fishing</string>
+    <string name="text_hikingBiking">Hiking and Mountain Biking</string>
+    <string name="text_kayaking">Kayaking</string>
+    <string name="text_pavilition">Pavilion Rentals</string>
+
 
     //About Us Strings
     <string name="button_info">Park Info</string>
