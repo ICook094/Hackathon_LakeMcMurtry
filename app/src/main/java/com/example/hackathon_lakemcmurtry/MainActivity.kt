@@ -53,16 +53,21 @@ class MainActivity : AppCompatActivity() {
         //val editText = findViewById<EditText>(R.id.editTextTextPersonName)
         //val message = editText.text.toString()
         val intent = Intent(this, GenInfoActivity::class.java).apply {
-          //  putExtra(EXTRA_MESSAGE, "test")
+            //  putExtra(EXTRA_MESSAGE, "test")
         }
         startActivity(intent)
     }
     fun genCampsiteActivity(view: View) {
-        val intent = Intent(this, GenCampsiteActivity::class.java).apply {
+        val intent1 = Intent(this, GenCampsiteActivity::class.java).apply {
            // putExtra(EXTRA_MESSAGE, "test")
         }
-        startActivity(intent)
-        }
+        startActivity(intent1)
     }
 
+    fun getRules(view: View) {
+        val intent2 = Intent(this, RuleActivity::class.java).apply {
 
+        }
+        startActivity(intent2)
+    }
+}
