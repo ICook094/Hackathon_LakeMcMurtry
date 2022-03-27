@@ -1,4 +1,4 @@
-package com.example.hackathon_lakemcmurtry.ui.search
+package com.example.hackathon_lakemcmurtry.ui.support
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -7,11 +7,11 @@ import android.view.ViewGroup
 import android.widget.TextView
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
-import com.example.hackathon_lakemcmurtry.databinding.FragmentSearchBinding
+import com.example.hackathon_lakemcmurtry.databinding.FragmentSupportBinding
 
-class SearchFragment : Fragment() {
+class SupportFragment : Fragment() {
 
-    private var _binding: FragmentSearchBinding? = null
+    private var _binding: FragmentSupportBinding? = null
 
     // This property is only valid between onCreateView and
     // onDestroyView.
@@ -23,12 +23,12 @@ class SearchFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View {
         val notificationsViewModel =
-            ViewModelProvider(this).get(MenuViewModel::class.java)
+            ViewModelProvider(this).get(SupportViewModel::class.java)
 
-        _binding = FragmentSearchBinding.inflate(inflater, container, false)
+        _binding = FragmentSupportBinding.inflate(inflater, container, false)
         val root: View = binding.root
 
-        val textView: TextView = binding.textSearch
+        val textView: TextView = binding.textMoreInformation
         notificationsViewModel.text.observe(viewLifecycleOwner) {
             textView.text = it
         }

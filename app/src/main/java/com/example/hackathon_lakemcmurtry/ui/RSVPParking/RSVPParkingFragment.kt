@@ -1,4 +1,4 @@
-package com.example.hackathon_lakemcmurtry.ui.search
+package com.example.hackathon_lakemcmurtry.ui.RSVPParking
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -7,11 +7,11 @@ import android.view.ViewGroup
 import android.widget.TextView
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
-import com.example.hackathon_lakemcmurtry.databinding.FragmentMenuBinding
+import com.example.hackathon_lakemcmurtry.databinding.FragmentRsvpparkingBinding
 
-class MenuFragment : Fragment() {
+class RSVPParkingFragment : Fragment() {
 
-    private var _binding: FragmentMenuBinding? = null
+    private var _binding: FragmentRsvpparkingBinding? = null
 
     // This property is only valid between onCreateView and
     // onDestroyView.
@@ -23,9 +23,9 @@ class MenuFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View {
         val notificationsViewModel =
-            ViewModelProvider(this).get(MenuViewModel::class.java)
+            ViewModelProvider(this).get(RSVPParkingViewModel::class.java)
 
-        _binding = FragmentMenuBinding.inflate(inflater, container, false)
+        _binding = FragmentRsvpparkingBinding.inflate(inflater, container, false)
         val root: View = binding.root
 
         val textView: TextView = binding.textMenu
