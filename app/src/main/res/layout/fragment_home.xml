@@ -10,8 +10,8 @@
     <ScrollView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:layout_editor_absoluteX="-4dp">
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -26,7 +26,8 @@
                 android:alpha="250"
                 android:src="@drawable/lakecloudview"
                 app:layout_constraintTop_toTopOf="parent"
-                tools:layout_editor_absoluteX="0dp" />
+                tools:layout_editor_absoluteX="0dp"
+                tools:ignore="ContentDescription" />
 
             <TextView
                 android:id="@+id/textLakeMission"
@@ -96,34 +97,6 @@
                 app:layout_constraintTop_toBottomOf="@+id/emailMain" />
 
             <TextView
-                android:id="@+id/textWestCampHost"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="136dp"
-                android:layout_marginTop="25dp"
-                android:text="@string/text_textWestCampHost"
-                android:textAlignment="viewStart"
-                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-                android:textColor="@color/design_default_color_secondary_variant"
-                android:textStyle="bold"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/emailEastCampHost" />
-
-            <TextView
-                android:id="@+id/textEmergencyContact"
-                android:layout_width="wrap_content"
-                android:layout_height="24dp"
-                android:layout_marginStart="100dp"
-                android:layout_marginTop="25dp"
-                android:text="@string/text_textStillwaterPolice"
-                android:textAlignment="viewStart"
-                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-                android:textColor="@color/design_default_color_secondary_variant"
-                android:textStyle="bold"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/emailWestCampHost" />
-
-            <TextView
                 android:id="@+id/phoneEastCampHost"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -146,15 +119,18 @@
                 app:layout_constraintTop_toBottomOf="@+id/phoneEastCampHost" />
 
             <TextView
-                android:id="@+id/phoneWestCampHost"
+                android:id="@+id/textWestCampHost"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="161dp"
-                android:layout_marginTop="10dp"
-                android:text="@string/text_phoneWestCampHost"
+                android:layout_marginStart="136dp"
+                android:layout_marginTop="25dp"
+                android:text="@string/text_textWestCampHost"
+                android:textAlignment="viewStart"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
                 android:textColor="@color/design_default_color_secondary_variant"
+                android:textStyle="bold"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/textWestCampHost" />
+                app:layout_constraintTop_toBottomOf="@+id/emailEastCampHost" />
 
             <TextView
                 android:id="@+id/emailWestCampHost"
@@ -166,6 +142,31 @@
                 android:textColor="@color/design_default_color_secondary_variant"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/phoneWestCampHost" />
+
+            <TextView
+                android:id="@+id/phoneWestCampHost"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="161dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/text_phoneWestCampHost"
+                android:textColor="@color/design_default_color_secondary_variant"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textWestCampHost" />
+
+            <TextView
+                android:id="@+id/textEmergencyContact"
+                android:layout_width="wrap_content"
+                android:layout_height="24dp"
+                android:layout_marginStart="100dp"
+                android:layout_marginTop="25dp"
+                android:text="@string/text_textStillwaterPolice"
+                android:textAlignment="viewStart"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="@color/design_default_color_secondary_variant"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/emailWestCampHost" />
 
             <TextView
                 android:id="@+id/phoneEmergencyContact"
@@ -201,14 +202,184 @@
                 android:textStyle="bold"
                 app:layout_constraintTop_toBottomOf="@+id/imageView" />
 
-            <GridView
-                android:id="@+id/AmenitiesGrid"
+            <FrameLayout
+                android:id="@+id/layout_AdventureCamp"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:clickable="false"
-                android:keepScreenOn="true"
-                android:numColumns="1"
-                android:stretchMode="columnWidth" />
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp">
+
+                <ImageView
+                    android:id="@+id/image_AdventureCamp"
+                    android:layout_width="166dp"
+                    android:layout_height="129dp"
+                    android:layout_marginStart="20dp"
+                    android:src="@drawable/adventurecamp"
+                    tools:ignore="ContentDescription" />
+
+                <TextView
+                    android:id="@+id/text_adventureCamp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginTop="150dp"
+                    android:text="@string/text_AdventureCamp"
+                    android:textAlignment="center"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                    android:textColor="@color/design_default_color_secondary_variant"
+                    android:textStyle="bold"
+                    tools:ignore="RtlHardcoded" />
+
+                <ImageView
+                    android:id="@+id/image_camping"
+                    android:layout_width="197dp"
+                    android:layout_height="131dp"
+                    android:layout_gravity="right"
+                    android:layout_marginRight="20dp"
+                    android:src="@drawable/camping"
+                    tools:ignore="ContentDescription,RtlHardcoded" />
+
+                <TextView
+                    android:id="@+id/text_camping"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_marginTop="150dp"
+                    android:layout_marginRight="100dp"
+                    android:text="@string/text_camping"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                    android:textColor="@color/design_default_color_secondary_variant"
+                    android:textStyle="bold"
+                    tools:ignore="RtlHardcoded" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/layout_discGolf"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp">
+
+                <ImageView
+                    android:id="@+id/image_diskGolf"
+                    android:layout_width="166dp"
+                    android:layout_height="129dp"
+                    android:layout_marginStart="20dp"
+                    android:src="@drawable/diskgolf"
+                    tools:ignore="ContentDescription" />
+
+                <TextView
+                    android:id="@+id/text_diskGolf"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="75dp"
+                    android:layout_marginTop="150dp"
+                    android:text="@string/text_diskGold"
+                    android:textAlignment="center"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                    android:textColor="@color/design_default_color_secondary_variant"
+                    android:textStyle="bold"
+                    tools:ignore="RtlHardcoded" />
+
+                <ImageView
+                    android:id="@+id/image_fishing"
+                    android:layout_width="197dp"
+                    android:layout_height="131dp"
+                    android:layout_gravity="right"
+                    android:layout_marginRight="20dp"
+                    android:src="@drawable/fishing"
+                    tools:ignore="ContentDescription,RtlHardcoded" />
+
+                <TextView
+                    android:id="@+id/text_fishing"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_marginTop="150dp"
+                    android:layout_marginRight="100dp"
+                    android:text="@string/text_fishing"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                    android:textColor="@color/design_default_color_secondary_variant"
+                    android:textStyle="bold"
+                    tools:ignore="RtlHardcoded" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/layout_hikingBiking"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp">
+
+                <ImageView
+                    android:id="@+id/image_hikingBiking"
+                    android:layout_width="166dp"
+                    android:layout_height="129dp"
+                    android:layout_marginStart="20dp"
+                    android:src="@drawable/trails"
+                    tools:ignore="ContentDescription" />
+
+                <TextView
+                    android:id="@+id/text_hikingBiking"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="150dp"
+                    android:text="@string/text_hikingBiking"
+                    android:textAlignment="center"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                    android:textColor="@color/design_default_color_secondary_variant"
+                    android:textStyle="bold"
+                    tools:ignore="RtlHardcoded" />
+
+                <ImageView
+                    android:id="@+id/image_kayaking"
+                    android:layout_width="197dp"
+                    android:layout_height="131dp"
+                    android:layout_gravity="right"
+                    android:layout_marginRight="20dp"
+                    android:src="@drawable/kayaking"
+                    tools:ignore="ContentDescription,RtlHardcoded" />
+
+                <TextView
+                    android:id="@+id/text_kayaking"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_marginTop="150dp"
+                    android:layout_marginRight="100dp"
+                    android:text="@string/text_kayaking"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                    android:textColor="@color/design_default_color_secondary_variant"
+                    android:textStyle="bold"
+                    tools:ignore="RtlHardcoded" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/layout_pavilionRentals"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp">
+
+                <ImageView
+                    android:id="@+id/image_PavilionRentals"
+                    android:layout_width="253dp"
+                    android:layout_height="129dp"
+                    android:layout_gravity="center_horizontal"
+                    android:src="@drawable/pavilion"
+                    tools:ignore="ContentDescription" />
+
+                <TextView
+                    android:id="@+id/text_pavilion"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="150dp"
+                    android:text="@string/text_pavilition"
+                    android:textAlignment="center"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                    android:textColor="@color/design_default_color_secondary_variant"
+                    android:textStyle="bold" />
+
+            </FrameLayout>
 
 
         </LinearLayout>
