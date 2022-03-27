@@ -6,6 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".ui.RSVPParking.RSVPParkingFragment">
 
+
 <!--    <Spinner-->
 <!--        android:id="@+id/spinner_rsvp"-->
 <!--        android:layout_width="match_parent"-->

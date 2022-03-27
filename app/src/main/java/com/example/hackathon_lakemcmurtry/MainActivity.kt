@@ -3,6 +3,8 @@ package com.example.hackathon_lakemcmurtry
 import android.content.Intent
 import android.os.Bundle
 import android.view.View
+import android.app.Activity
+import android.widget.RadioButton
 import com.google.android.material.bottomnavigation.BottomNavigationView
 import androidx.appcompat.app.AppCompatActivity
 import androidx.navigation.findNavController
@@ -63,6 +65,19 @@ class MainActivity : AppCompatActivity() {
         }
         startActivity(intent)
     }
+    fun genEastRVCampsiteActivity(view: View) {
+        val intent4 = Intent(this, EastRVCampsiteActivity::class.java).apply {
+            // putExtra(EXTRA_MESSAGE, "test")
+        }
+        startActivity(intent4)
+    }
+    fun genWestRVCampsiteActivity(view: View) {
+        val intent5 = Intent(this, WestRVCampsiteActivity::class.java).apply {
+            // putExtra(EXTRA_MESSAGE, "test")
+        }
+        startActivity(intent5)
+    }
+
 
     fun RulesActivity(view: View) {
         val intent = Intent(this, RulesActivity::class.java).apply {

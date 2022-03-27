@@ -4,7 +4,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".GenCampsiteActivity">
+
+    tools:context1=".WestRVCampsiteActivity"
+    tools:context2=".EastRVCampsiteActivity">
+
+
 
  <Button
         android:id="@+id/eastrv"
@@ -13,7 +17,7 @@
         android:layout_marginStart="32dp"
         android:layout_marginTop="32dp"
         android:layout_marginEnd="32dp"
-
+        android:onClick="genEastRVCampsiteActivity"
         android:text="@string/erv"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -29,7 +33,7 @@
         android:layout_marginStart="32dp"
         android:layout_marginTop="32dp"
         android:layout_marginEnd="32dp"
-
+        android:onClick="genWestRVCampsiteActivity"
         android:text="@string/wrv"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
