@@ -5,4 +5,14 @@
     <string name="title_moreInfo">More Information</string>
     <string name="title_search">Search</string>
     <string name="title_menu">Menu</string>
+
+    <string-array name="map_spinner">
+        <item>West Side Recreational Area</item>
+        <item>East Side Recreational Area</item>
+        <item>West Trail Maps</item>
+        <item>East Trail Maps</item>
+        <item>Disc Golf Course Maps</item>
+        <item>Lake Map</item>
+        <item>Fish Attractor Map</item>
+    </string-array>
 </resources>

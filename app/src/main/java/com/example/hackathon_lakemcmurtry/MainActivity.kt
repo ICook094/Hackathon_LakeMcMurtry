@@ -1,6 +1,8 @@
 package com.example.hackathon_lakemcmurtry
 
 import android.os.Bundle
+import android.widget.ArrayAdapter
+import android.widget.Spinner
 import com.google.android.material.bottomnavigation.BottomNavigationView
 import androidx.appcompat.app.AppCompatActivity
 import androidx.navigation.findNavController
@@ -31,5 +33,16 @@ class MainActivity : AppCompatActivity() {
         )
         setupActionBarWithNavController(navController, appBarConfiguration)
         navView.setupWithNavController(navController)
+
+//        val mapspinner: Spinner = findViewById(R.id.map_spinner)!!
+//        ArrayAdapter.createFromResource(
+//            this,
+//            R.array.map_spinner,
+//            android.R.layout.simple_spinner_dropdown_item
+//        ).also { adapter ->
+//            adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item)
+//            mapspinner.adapter = adapter
+//        }
     }
+
 }
