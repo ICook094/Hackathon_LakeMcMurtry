@@ -15,9 +15,15 @@
         <item>Disc Golf Course Maps</item>
         <item>Lake Map</item>
         <item>Fish Attractor Map</item>
-
-
     </string-array>
+
+    <string name="campsitebutton" >Select Campsite</string>
+    <string name="erv" >East RV Campsites</string>
+    <string name="wrv" >West RV Campsites</string>
+    <string name="etent" >East Tent Campsites</string>
+    <string name="wtent" >West Tent Campsites</string>
+    <string name = "daypass" > Purchase Day Pass</string>
+    <string name="annual" > Purchase an Annual Pass</string>
     <string name = "selectcampsite">Select a Campsite</string>
     <string-array name="RSVP">
         <item>East RV Campsites</item>
