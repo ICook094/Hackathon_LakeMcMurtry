@@ -8,10 +8,10 @@
 
 
     <ScrollView
-        android:layout_width="419dp"
-        android:layout_height="725dp"
-        tools:layout_editor_absoluteX="-4dp"
-        tools:layout_editor_absoluteY="3dp">
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="-4dp">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -22,7 +22,7 @@
                 android:id="@+id/imageView"
                 android:layout_width="wrap_content"
                 android:layout_height="213dp"
-                android:layout_marginTop="50dp"
+                android:layout_marginTop="0dp"
                 android:alpha="250"
                 android:src="@drawable/lakecloudview"
                 app:layout_constraintTop_toTopOf="parent"
@@ -53,7 +53,7 @@
                 android:text="@string/text_textContactLabel"
                 android:textAllCaps="true"
                 android:textAppearance="@style/TextAppearance.AppCompat.Display2"
-                android:textColor="@color/white"
+                android:textColor="@color/design_default_color_secondary_variant"
                 android:textSize="24sp"
                 android:textStyle="bold"
                 app:layout_constraintStart_toStartOf="parent"
@@ -66,7 +66,7 @@
                 android:layout_marginStart="160dp"
                 android:layout_marginTop="10dp"
                 android:text="@string/text_phoneMain"
-                android:textColor="@color/white"
+                android:textColor="@color/design_default_color_secondary_variant"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/textContactLabel" />
 
@@ -77,7 +77,7 @@
                 android:layout_marginStart="131dp"
                 android:layout_marginTop="10dp"
                 android:text="@string/text_emailMain"
-                android:textColor="@color/white"
+                android:textColor="@color/design_default_color_secondary_variant"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/phoneMain" />
 
@@ -90,7 +90,7 @@
                 android:text="@string/text_textEastCampHost"
                 android:textAlignment="viewStart"
                 android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-                android:textColor="@color/white"
+                android:textColor="@color/design_default_color_secondary_variant"
                 android:textStyle="bold"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/emailMain" />
@@ -104,7 +104,7 @@
                 android:text="@string/text_textWestCampHost"
                 android:textAlignment="viewStart"
                 android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-                android:textColor="@color/white"
+                android:textColor="@color/design_default_color_secondary_variant"
                 android:textStyle="bold"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/emailEastCampHost" />
@@ -118,7 +118,7 @@
                 android:text="@string/text_textStillwaterPolice"
                 android:textAlignment="viewStart"
                 android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-                android:textColor="@color/white"
+                android:textColor="@color/design_default_color_secondary_variant"
                 android:textStyle="bold"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/emailWestCampHost" />
@@ -130,7 +130,7 @@
                 android:layout_marginStart="160dp"
                 android:layout_marginTop="10dp"
                 android:text="@string/text_phoneEastCampHost"
-                android:textColor="@color/white"
+                android:textColor="@color/design_default_color_secondary_variant"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/textEastCampHost" />
 
@@ -141,7 +141,7 @@
                 android:layout_marginStart="123dp"
                 android:layout_marginTop="10dp"
                 android:text="@string/text_emailEastCampHost"
-                android:textColor="@color/white"
+                android:textColor="@color/design_default_color_secondary_variant"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/phoneEastCampHost" />
 
@@ -152,7 +152,7 @@
                 android:layout_marginStart="161dp"
                 android:layout_marginTop="10dp"
                 android:text="@string/text_phoneWestCampHost"
-                android:textColor="@color/white"
+                android:textColor="@color/design_default_color_secondary_variant"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/textWestCampHost" />
 
@@ -163,7 +163,7 @@
                 android:layout_marginStart="112dp"
                 android:layout_marginTop="10dp"
                 android:text="@string/text_emailWestCampHost"
-                android:textColor="@color/white"
+                android:textColor="@color/design_default_color_secondary_variant"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/phoneWestCampHost" />
 
@@ -174,7 +174,7 @@
                 android:layout_marginStart="160dp"
                 android:layout_marginTop="10dp"
                 android:text="@string/text_phoneStillwaterPolice"
-                android:textColor="@color/white"
+                android:textColor="@color/design_default_color_secondary_variant"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/textEmergencyContact" />
 
@@ -185,6 +185,22 @@
                 android:background="?android:attr/listDivider"
                 tools:layout_editor_absoluteX="0dp"
                 tools:layout_editor_absoluteY="626dp" />
+
+            <TextView
+                android:id="@+id/textEventsLabel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="68dp"
+                android:layout_marginTop="50dp"
+                android:text="@string/text_textContactLabel"
+                android:textAllCaps="true"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+                android:textColor="@color/design_default_color_secondary_variant"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
 
         </LinearLayout>
     </ScrollView>
