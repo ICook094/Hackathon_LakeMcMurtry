@@ -84,5 +84,9 @@
         "\n"- Confetti is prohibited.
         "\n"- Removal of plants, animals, rocks, downed timber, artifacts or relics is prohibited without written permission from Lake McMurtry Friends, Inc. and/or the City of Stillwater.
         "\n"- The use of ATVs, LSVs, UTVs, and golf carts is prohibited on Lake McMurtry property.</string>
+    //wildlife
+    <string name="button_deer">Deer Diversity</string>
+    <string name="button_bird">Bird Diversity</string>
+    <string name="button_invasive">Invasive Species</string>
 
 </resources>

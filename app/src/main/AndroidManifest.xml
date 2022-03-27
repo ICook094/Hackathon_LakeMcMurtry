@@ -13,6 +13,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Hackathon_LakeMcMurtry">
         <activity
+            android:name=".InvasiveActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DeerActivity"
+            android:exported="false" />
+        <activity
+            android:name=".BirdActivity"
+            android:exported="false" />
+        <activity
             android:name=".TestActivity"
             android:exported="false" />
         <activity

@@ -11,8 +11,22 @@ class WildlifeActivity : AppCompatActivity() {
         setContentView(R.layout.activity_wildlife)
     }
 
-    fun TestActivity(view: View) {
-        val intent = Intent(this, TestActivity::class.java).apply {
+    fun BirdActivity(view: View) {
+        val intent = Intent(this, BirdActivity::class.java).apply {
+
+        }
+        startActivity(intent)
+    }
+
+    fun DeerActivity(view: View) {
+        val intent = Intent(this, DeerActivity::class.java).apply {
+
+        }
+        startActivity(intent)
+    }
+
+    fun InvasiveActivity(view: View) {
+        val intent = Intent(this, InvasiveActivity::class.java).apply {
 
         }
         startActivity(intent)
