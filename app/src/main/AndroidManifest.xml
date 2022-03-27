@@ -38,6 +38,9 @@
             android:name=".Donateallurmoneytomeordie"
             android:exported="false"/>
         <activity
+            android:name=".venmo"
+            android:exported="false"/>
+        <activity
             android:name=".PartnerActivity"
             android:exported="false" />
         <activity

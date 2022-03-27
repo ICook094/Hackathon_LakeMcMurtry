@@ -131,6 +131,8 @@ class MainActivity : AppCompatActivity() {
         startActivity(intent)
     }
 
+
+
     fun ContactActivity(view: View) {
         val intent = Intent(this, ContactActivity::class.java).apply {}
         startActivity(intent)
@@ -138,6 +140,10 @@ class MainActivity : AppCompatActivity() {
 
     fun AmenityActivity(view: View) {
         val intent = Intent(this, AmenityActivity::class.java).apply {}
+        startActivity(intent)
+    }
+    fun PayAaron(view: View) {
+        val intent = Intent(this, venmo::class.java).apply {}
         startActivity(intent)
     }
 
