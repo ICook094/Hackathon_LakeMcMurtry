@@ -13,18 +13,38 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Hackathon_LakeMcMurtry">
         <activity
+            android:name=".TestActivity"
+            android:exported="false" />
+        <activity
+            android:name=".WildlifeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ContactActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PartnerActivity"
+            android:exported="false" />
+        <activity
+            android:name=".EduActivity"
+            android:exported="false" />
+        <activity
+            android:name=".HistoryActivity"
+            android:exported="false" />
+        <activity
             android:name=".RulesActivity"
             android:exported="false" />
         <activity
             android:name=".GenInfoActivity"
             android:exported="false" />
-        <activity android:name=".GenCampsiteActivity"
-            android:exported="false"/>
-        <activity android:name=".EastRVCampsiteActivity"
-            android:exported="false"/>
-        <activity android:name=".WestRVCampsiteActivity"
-        android:exported="false"/>
-
+        <activity
+            android:name=".GenCampsiteActivity"
+            android:exported="false" />
+        <activity
+            android:name=".EastRVCampsiteActivity"
+            android:exported="false" />
+        <activity
+            android:name=".WestRVCampsiteActivity"
+            android:exported="false" />
 
         <meta-data
             android:name="com.google.android.geo.API_KEY"

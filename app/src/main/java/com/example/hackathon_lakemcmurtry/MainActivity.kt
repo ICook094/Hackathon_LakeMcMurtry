@@ -79,11 +79,37 @@ class MainActivity : AppCompatActivity() {
         startActivity(intent5)
     }
 
+    fun WildlifeActivity(view: View) {
+        val intent = Intent(this, WildlifeActivity::class.java).apply {
+
+        }
+        startActivity(intent)
+    }
 
     fun RulesActivity(view: View) {
         val intent = Intent(this, RulesActivity::class.java).apply {
 
         }
+        startActivity(intent)
+    }
+
+    fun HistoryActivity(view: View) {
+        val intent = Intent(this, HistoryActivity::class.java).apply {}
+        startActivity(intent)
+    }
+
+    fun EduActivity(view: View) {
+        val intent = Intent(this, EduActivity::class.java).apply {}
+        startActivity(intent)
+    }
+
+    fun PartnerActivity(view: View) {
+        val intent = Intent(this, PartnerActivity::class.java).apply {}
+        startActivity(intent)
+    }
+
+    fun ContactActivity(view: View) {
+        val intent = Intent(this, ContactActivity::class.java).apply {}
         startActivity(intent)
     }
 
