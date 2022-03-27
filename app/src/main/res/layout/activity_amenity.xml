@@ -34,7 +34,7 @@
                 android:text="@string/text_AdventureCamp"
                 android:textAlignment="center"
                 android:textAppearance="@style/TextAppearance.AppCompat.Small"
-                android:textColor="@color/design_default_color_secondary_variant"
+                android:textColor="@android:color/white"
                 android:textStyle="bold"
                 tools:ignore="RtlHardcoded" />
 
@@ -56,7 +56,7 @@
                 android:layout_marginRight="100dp"
                 android:text="@string/text_camping"
                 android:textAppearance="@style/TextAppearance.AppCompat.Small"
-                android:textColor="@color/design_default_color_secondary_variant"
+                android:textColor="@android:color/white"
                 android:textStyle="bold"
                 tools:ignore="RtlHardcoded" />
         </FrameLayout>
@@ -84,7 +84,7 @@
                 android:text="@string/text_diskGold"
                 android:textAlignment="center"
                 android:textAppearance="@style/TextAppearance.AppCompat.Small"
-                android:textColor="@color/design_default_color_secondary_variant"
+                android:textColor="@android:color/white"
                 android:textStyle="bold"
                 tools:ignore="RtlHardcoded" />
 
@@ -106,7 +106,7 @@
                 android:layout_marginRight="100dp"
                 android:text="@string/text_fishing"
                 android:textAppearance="@style/TextAppearance.AppCompat.Small"
-                android:textColor="@color/design_default_color_secondary_variant"
+                android:textColor="@android:color/white"
                 android:textStyle="bold"
                 tools:ignore="RtlHardcoded" />
         </FrameLayout>
@@ -134,7 +134,7 @@
                 android:text="@string/text_hikingBiking"
                 android:textAlignment="center"
                 android:textAppearance="@style/TextAppearance.AppCompat.Small"
-                android:textColor="@color/design_default_color_secondary_variant"
+                android:textColor="@android:color/white"
                 android:textStyle="bold"
                 tools:ignore="RtlHardcoded" />
 
@@ -156,7 +156,7 @@
                 android:layout_marginRight="100dp"
                 android:text="@string/text_kayaking"
                 android:textAppearance="@style/TextAppearance.AppCompat.Small"
-                android:textColor="@color/design_default_color_secondary_variant"
+                android:textColor="@android:color/white"
                 android:textStyle="bold"
                 tools:ignore="RtlHardcoded" />
         </FrameLayout>
@@ -185,7 +185,7 @@
                 android:text="@string/text_pavilition"
                 android:textAlignment="center"
                 android:textAppearance="@style/TextAppearance.AppCompat.Small"
-                android:textColor="@color/design_default_color_secondary_variant"
+                android:textColor="@android:color/white"
                 android:textStyle="bold" />
 
         </FrameLayout>
