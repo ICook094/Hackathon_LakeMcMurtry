@@ -6,6 +6,7 @@ import android.os.Bundle
 class GenCampsiteActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        title = "General Campsites"
         setContentView(R.layout.activity_campsites)
         // Get the Intent that started this activity and extract the string
         //val message = intent.getStringExtra(EXTRA_MESSAGE)
