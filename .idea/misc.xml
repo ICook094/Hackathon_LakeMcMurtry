@@ -24,18 +24,13 @@
         <entry key="..\:/Users/isabe/AndroidStudioProjects/Hackathon_LakeMcMurtry/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.2265" />
         <entry key="app/src/main/res/layout/activity_genCampsites.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_geninfo.xml" value="0.281593654466712" />
-        <entry key="app/src/main/res/layout/activity_main.xml" value="0.14947916666666666" />
         <entry key="app/src/main/res/layout/activity_rules.xml" value="0.1" />
-        <entry key="app/src/main/res/layout/activity_wildlife.xml" value="0.1" />
         <entry key="app/src/main/res/layout/fragment_about.xml" value="0.1" />
         <entry key="app/src/main/res/layout/fragment_campsites.xml" value="0.1" />
         <entry key="app/src/main/res/layout/fragment_east_map.xml" value="0.1" />
-        <entry key="app/src/main/res/layout/fragment_eastrv.xml" value="0.12395376644081307" />
-        <entry key="app/src/main/res/layout/fragment_easttent.xml" value="0.1" />
-        <entry key="app/src/main/res/layout/fragment_home.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/fragment_eastrv.xml" value="0.1" />
         <entry key="app/src/main/res/layout/fragment_rsvpparking.xml" value="0.1" />
         <entry key="app/src/main/res/layout/fragment_westrv.xml" value="0.1" />
-        <entry key="app/src/main/res/layout/fragment_westtent.xml" value="0.1" />
         <entry key="app/src/main/res/layout/list_rsvpparking.xml" value="0.1" />
       </map>
     </option>

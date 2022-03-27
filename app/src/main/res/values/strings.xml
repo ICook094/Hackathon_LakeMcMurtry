@@ -162,5 +162,8 @@
     <string name="button_deer">Deer Diversity</string>
     <string name="button_bird">Bird Diversity</string>
     <string name="button_invasive">Invasive Species</string>
-
+    //birds aren't even fucking real
+    <string name="header_bird">Bird Diversity at Lake McMurtry
+</string>
+    <string name="bird_words">Bird watchers and wildlife enthusiasts!  Lake McMurtry is a great place to spend the day searching for all your favorite bird species.  Who knows, you may just find a bird you have never seen.  With temperatures climbing and daylight hours ever so slowly starting to increase, migratory bird species are beginning to show.   Due the variety of habitats at Lake McMurtry, there are a multitude of birds that can be found; each habitat type will support different bird species.  Habitats at the lake encompass: grasslands, wetlands, open water, mature forest, and early successional habitats.  With our 30+ miles of multiuse trails it allows you to explore all the different habitat types and capture a rich bird diversity.  Be sure to share all of your Lake McMurtry bird photos by emailing them to info@lakemcmurtry.org or post them to our Facebook at Lake McMurtry Friends!</string>
 </resources>
