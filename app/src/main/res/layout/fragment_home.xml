@@ -182,24 +182,33 @@
                 android:id="@+id/divider"
                 android:layout_width="409dp"
                 android:layout_height="10dp"
+                android:layout_margin="20dp"
                 android:background="?android:attr/listDivider"
                 tools:layout_editor_absoluteX="0dp"
                 tools:layout_editor_absoluteY="626dp" />
 
             <TextView
-                android:id="@+id/textEventsLabel"
-                android:layout_width="match_parent"
+                android:id="@+id/AmenitiesLabel"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="68dp"
-                android:layout_marginTop="50dp"
-                android:text="@string/text_textContactLabel"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="15dp"
+                android:text="@string/text_Amenities"
                 android:textAllCaps="true"
                 android:textAppearance="@style/TextAppearance.AppCompat.Display2"
                 android:textColor="@color/design_default_color_secondary_variant"
                 android:textSize="24sp"
                 android:textStyle="bold"
-                app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+            <GridView
+                android:id="@+id/AmenitiesGrid"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clickable="false"
+                android:keepScreenOn="true"
+                android:numColumns="1"
+                android:stretchMode="columnWidth" />
 
 
         </LinearLayout>
