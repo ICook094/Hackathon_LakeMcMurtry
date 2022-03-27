@@ -79,6 +79,7 @@
         "\n""\n" -Check In: 3:00 pm
         "\n" -Check Out: 1:00 pm
         </string>
+    <string name="rsvpbut">RSVP</string>
     <string name="erv10">
         East RV #10
         "\n" -Includes 30 &amp; 50 amp concrete pad, electric hookup, water, a picnic table, and a fire ring with a tilt-back grill. Dump stations are located within the park.
@@ -86,6 +87,7 @@
         "\n""\n" -Check In: 3:00 pm
         "\n" -Check Out: 1:00 pm
         </string>
+    <string name="rspp">RSVP</string>
 
 
     <string name="campsitebutton">Select Campsite</string>

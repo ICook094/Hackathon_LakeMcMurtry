@@ -296,7 +296,19 @@
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/imageView10" />
 
+
         </LinearLayout>
+
     </ScrollView>
+    <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+        android:id="@+id/extedo"
+        android:layout_width="100dp"
+        android:layout_margin="16dp"
+        android:gravity="center|bottom"
+        android:text="@string/rsvpbut"
+        android:textAlignment="center"
+        android:layout_height="45dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -3,9 +3,8 @@ package com.example.hackathon_lakemcmurtry
 import android.content.Intent
 import android.net.Uri
 import android.os.Bundle
+import android.provider.Browser
 import android.view.View
-import android.app.Activity
-import android.widget.RadioButton
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.navigation.findNavController
@@ -13,7 +12,6 @@ import androidx.navigation.ui.AppBarConfiguration
 import androidx.navigation.ui.setupActionBarWithNavController
 import androidx.navigation.ui.setupWithNavController
 import com.example.hackathon_lakemcmurtry.databinding.ActivityMainBinding
-import com.google.android.material.snackbar.Snackbar
 import com.google.android.material.bottomnavigation.BottomNavigationView
 import java.util.*
 
@@ -36,7 +34,11 @@ class MainActivity : AppCompatActivity() {
         // menu should be considered as top level destinations.
         val appBarConfiguration = AppBarConfiguration(
             setOf(
-                R.id.navigation_home, R.id.navigation_map, R.id.navigation_RSVPParking, R.id.navigation_support, R.id.navigation_about
+                R.id.navigation_home,
+                R.id.navigation_map,
+                R.id.navigation_RSVPParking,
+                R.id.navigation_support,
+                R.id.navigation_about
             )
         )
         setupActionBarWithNavController(navController, appBarConfiguration)
@@ -44,11 +46,22 @@ class MainActivity : AppCompatActivity() {
 
         val fab: View = findViewById(com.example.hackathon_lakemcmurtry.R.id.fab)
         fab.setOnClickListener { view ->
-            Toast.makeText(getApplicationContext(), "Contacting Emergency Services", Toast.LENGTH_LONG).show()
-            val intent : Intent = Intent(Intent.ACTION_DIAL)
+            Toast.makeText(
+                getApplicationContext(),
+                "Contacting Emergency Services",
+                Toast.LENGTH_LONG
+            ).show()
+            val intent: Intent = Intent(Intent.ACTION_DIAL)
             intent.setData(Uri.parse("tel:18329204035"))
             startActivity(intent)
         }
+
+
+
+
+
+
+
 //        val mapspinner: Spinner = findViewById(R.id.map_spinner)!!
 //        ArrayAdapter.createFromResource(
 //            this,
@@ -124,12 +137,15 @@ class MainActivity : AppCompatActivity() {
         startActivity(intent)
     }
 
+
+
     fun onClickOpenDirectionsToLake(view: View) {
         // Do something in response to button click
 //        val gmmIntentUri: Uri = Uri.parse("geo:36.18119247058171, -97.17453737109192")
 //        val mapIntent: Intent = Intent(Intent.ACTION_VIEW, gmmIntentUri)
 //        mapIntent.setPackage("com.google.android.apps.maps")
 //        startActivity(mapIntent)
+
 
         val uri: String = java.lang.String.format(
             Locale.ENGLISH,
@@ -138,5 +154,9 @@ class MainActivity : AppCompatActivity() {
         )
         val intent = Intent(Intent.ACTION_VIEW, Uri.parse(uri))
         startActivity(intent)
+
+
     }
+
+
 }
