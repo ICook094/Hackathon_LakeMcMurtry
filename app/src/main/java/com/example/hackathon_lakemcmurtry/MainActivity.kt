@@ -75,18 +75,19 @@ class MainActivity : AppCompatActivity() {
         }
         startActivity(intent)
     }
-    fun genEastRVCampsiteActivity(view: View) {
-        val intent4 = Intent(this, EastRVCampsiteActivity::class.java).apply {
+    fun genDaypassActivity(view: View) {
+        val intent = Intent(this, DaypassActivity::class.java).apply {
             // putExtra(EXTRA_MESSAGE, "test")
         }
-        startActivity(intent4)
+        startActivity(intent)
     }
-    fun genWestRVCampsiteActivity(view: View) {
-        val intent5 = Intent(this, WestRVCampsiteActivity::class.java).apply {
+    fun genAnnualpassActivity(view: View) {
+        val intent = Intent(this, Annualpass::class.java).apply {
             // putExtra(EXTRA_MESSAGE, "test")
         }
-        startActivity(intent5)
+        startActivity(intent)
     }
+
 
     fun WildlifeActivity(view: View) {
         val intent = Intent(this, WildlifeActivity::class.java).apply {
