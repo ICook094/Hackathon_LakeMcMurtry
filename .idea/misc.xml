@@ -27,6 +27,7 @@
         <entry key="app/src/main/res/layout/activity_rules.xml" value="0.1" />
         <entry key="app/src/main/res/layout/fragment_about.xml" value="0.1" />
         <entry key="app/src/main/res/layout/fragment_campsites.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/fragment_east_map.xml" value="0.1" />
         <entry key="app/src/main/res/layout/fragment_eastrv.xml" value="0.1" />
         <entry key="app/src/main/res/layout/fragment_rsvpparking.xml" value="0.1" />
         <entry key="app/src/main/res/layout/fragment_westrv.xml" value="0.1" />
