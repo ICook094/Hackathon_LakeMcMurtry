@@ -3,9 +3,8 @@ package com.example.hackathon_lakemcmurtry
 import android.content.Intent
 import android.net.Uri
 import android.os.Bundle
+import android.provider.Browser
 import android.view.View
-import android.app.Activity
-import android.widget.RadioButton
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.navigation.findNavController
@@ -13,7 +12,6 @@ import androidx.navigation.ui.AppBarConfiguration
 import androidx.navigation.ui.setupActionBarWithNavController
 import androidx.navigation.ui.setupWithNavController
 import com.example.hackathon_lakemcmurtry.databinding.ActivityMainBinding
-import com.google.android.material.snackbar.Snackbar
 import com.google.android.material.bottomnavigation.BottomNavigationView
 import java.util.*
 
@@ -36,7 +34,11 @@ class MainActivity : AppCompatActivity() {
         // menu should be considered as top level destinations.
         val appBarConfiguration = AppBarConfiguration(
             setOf(
-                R.id.navigation_home, R.id.navigation_map, R.id.navigation_RSVPParking, R.id.navigation_support, R.id.navigation_about
+                R.id.navigation_home,
+                R.id.navigation_map,
+                R.id.navigation_RSVPParking,
+                R.id.navigation_support,
+                R.id.navigation_about
             )
         )
         setupActionBarWithNavController(navController, appBarConfiguration)
@@ -44,11 +46,16 @@ class MainActivity : AppCompatActivity() {
 
         val fab: View = findViewById(com.example.hackathon_lakemcmurtry.R.id.fab)
         fab.setOnClickListener { view ->
-            Toast.makeText(getApplicationContext(), "Contacting Emergency Services", Toast.LENGTH_LONG).show()
-            val intent : Intent = Intent(Intent.ACTION_DIAL)
+            Toast.makeText(
+                getApplicationContext(),
+                "Contacting Emergency Services",
+                Toast.LENGTH_LONG
+            ).show()
+            val intent: Intent = Intent(Intent.ACTION_DIAL)
             intent.setData(Uri.parse("tel:18329204035"))
             startActivity(intent)
         }
+
 //        val mapspinner: Spinner = findViewById(R.id.map_spinner)!!
 //        ArrayAdapter.createFromResource(
 //            this,
@@ -76,17 +83,17 @@ class MainActivity : AppCompatActivity() {
         }
         startActivity(intent)
     }
-    fun genEastRVCampsiteActivity(view: View) {
-        val intent4 = Intent(this, EastRVCampsiteActivity::class.java).apply {
+    fun genDaypassActivity(view: View) {
+        val intent = Intent(this, DaypassActivity::class.java).apply {
             // putExtra(EXTRA_MESSAGE, "test")
         }
-        startActivity(intent4)
+        startActivity(intent)
     }
-    fun genWestRVCampsiteActivity(view: View) {
-        val intent5 = Intent(this, WestRVCampsiteActivity::class.java).apply {
+    fun genAnnualpassActivity(view: View) {
+        val intent = Intent(this, Annualpass::class.java).apply {
             // putExtra(EXTRA_MESSAGE, "test")
         }
-        startActivity(intent5)
+        startActivity(intent)
     }
 
     fun WildlifeActivity(view: View) {

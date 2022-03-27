@@ -16,6 +16,79 @@
         <item>Lake Map</item>
         <item>Fish Attractor Map</item>
     </string-array>
+    <string name="erv1">
+        East RV #1
+        "\n" -Includes 30 &amp; 50 amp concrete pad, electric hookup, water, a picnic table, and a fire ring with a tilt-back grill. Dump stations are located within the park.
+        "\n" "\n" -Free Wi-Fi located within the RV Loop, at the Bait Shop, Pavilion, and Gatehouse.
+        "\n""\n" -Check In: 3:00 pm
+        "\n" -Check Out: 1:00 pm
+        "\n""\n" -Handicap Accessible</string>
+    <string name="erv2">
+        East RV #2
+        "\n" -Includes 30 &amp; 50 amp concrete pad, electric hookup, water, a picnic table, and a fire ring with a tilt-back grill. Dump stations are located within the park.
+        "\n" "\n" -Free Wi-Fi located within the RV Loop, at the Bait Shop, Pavilion, and Gatehouse.
+        "\n""\n" -Check In: 3:00 pm
+        "\n" -Check Out: 1:00 pm
+        </string>
+    <string name="erv3">
+        East RV #3
+        "\n" -Includes 30 &amp; 50 amp concrete pad, electric hookup, water, a picnic table, and a fire ring with a tilt-back grill. Dump stations are located within the park.
+        "\n" "\n" -Free Wi-Fi located within the RV Loop, at the Bait Shop, Pavilion, and Gatehouse.
+        "\n""\n" -Check In: 3:00 pm
+        "\n" -Check Out: 1:00 pm
+        </string>
+    <string name="erv4">
+        East RV #4
+        "\n" -Includes 30 &amp; 50 amp concrete pad, electric hookup, water, a picnic table, and a fire ring with a tilt-back grill. Dump stations are located within the park.
+        "\n" "\n" -Free Wi-Fi located within the RV Loop, at the Bait Shop, Pavilion, and Gatehouse.
+        "\n""\n" -Check In: 3:00 pm
+        "\n" -Check Out: 1:00 pm
+        </string>
+    <string name="erv5">
+        East RV #5
+        "\n" -Includes 30 &amp; 50 amp concrete pad, electric hookup, water, a picnic table, and a fire ring with a tilt-back grill. Dump stations are located within the park.
+        "\n" "\n" -Free Wi-Fi located within the RV Loop, at the Bait Shop, Pavilion, and Gatehouse.
+        "\n""\n" -Check In: 3:00 pm
+        "\n" -Check Out: 1:00 pm
+        </string>
+    <string name="erv6">
+        East RV #6
+        "\n" -Includes 30 &amp; 50 amp concrete pad, electric hookup, water, a picnic table, and a fire ring with a tilt-back grill. Dump stations are located within the park.
+        "\n" "\n" -Free Wi-Fi located within the RV Loop, at the Bait Shop, Pavilion, and Gatehouse.
+        "\n""\n" -Check In: 3:00 pm
+        "\n" -Check Out: 1:00 pm
+        </string>
+    <string name="erv7">
+        East RV #7
+        "\n" -Includes 30 &amp; 50 amp concrete pad, electric hookup, water, a picnic table, and a fire ring with a tilt-back grill. Dump stations are located within the park.
+        "\n" "\n" -Free Wi-Fi located within the RV Loop, at the Bait Shop, Pavilion, and Gatehouse.
+        "\n""\n" -Check In: 3:00 pm
+        "\n" -Check Out: 1:00 pm
+        </string>
+    <string name="erv8">
+        East RV #8
+        "\n" -Includes 30 &amp; 50 amp concrete pad, electric hookup, water, a picnic table, and a fire ring with a tilt-back grill. Dump stations are located within the park.
+        "\n" "\n" -Free Wi-Fi located within the RV Loop, at the Bait Shop, Pavilion, and Gatehouse.
+        "\n""\n" -Check In: 3:00 pm
+        "\n" -Check Out: 1:00 pm
+        </string>
+    <string name="erv9">
+        East RV #9
+        "\n" -Includes 30 &amp; 50 amp concrete pad, electric hookup, water, a picnic table, and a fire ring with a tilt-back grill. Dump stations are located within the park.
+        "\n" "\n" -Free Wi-Fi located within the RV Loop, at the Bait Shop, Pavilion, and Gatehouse.
+        "\n""\n" -Check In: 3:00 pm
+        "\n" -Check Out: 1:00 pm
+        </string>
+    <string name="rsvpbut">RSVP</string>
+    <string name="erv10">
+        East RV #10
+        "\n" -Includes 30 &amp; 50 amp concrete pad, electric hookup, water, a picnic table, and a fire ring with a tilt-back grill. Dump stations are located within the park.
+        "\n" "\n" -Free Wi-Fi located within the RV Loop, at the Bait Shop, Pavilion, and Gatehouse.
+        "\n""\n" -Check In: 3:00 pm
+        "\n" -Check Out: 1:00 pm
+        </string>
+    <string name="rspp">RSVP</string>
+
 
     <string name="campsitebutton">Select Campsite</string>
     <string name="erv">East RV Campsites</string>

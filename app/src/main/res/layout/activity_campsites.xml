@@ -5,8 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
 
-    tools:context1=".WestRVCampsiteActivity"
-    tools:context2=".EastRVCampsiteActivity">
+    tools:context=".GenCampsiteActivity"
+    >
 
 
 
@@ -49,7 +49,7 @@
         android:layout_marginStart="32dp"
         android:layout_marginTop="32dp"
         android:layout_marginEnd="32dp"
-
+        android:onClick="genEastTentCampsiteActivity"
         android:text="@string/etent"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -64,7 +64,7 @@
         android:layout_marginStart="32dp"
         android:layout_marginTop="32dp"
         android:layout_marginEnd="32dp"
-
+        android:onClick="genWestTentCampsiteActivity"
         android:text="@string/wtent"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

@@ -46,7 +46,7 @@
     android:layout_marginStart="32dp"
     android:layout_marginTop="32dp"
     android:layout_marginEnd="32dp"
-
+    android:onClick="genDaypassActivity"
     android:text="@string/daypass"
     app:layout_constraintBottom_toBottomOf="parent"
     app:layout_constraintEnd_toEndOf="parent"
@@ -62,7 +62,7 @@
         android:layout_marginStart="32dp"
         android:layout_marginTop="32dp"
         android:layout_marginEnd="32dp"
-
+        android:onClick="genAnnualpassActivity"
         android:text="@string/annual"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

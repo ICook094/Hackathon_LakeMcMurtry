@@ -30,6 +30,7 @@
         <activity
             android:name=".WildlifeActivity"
             android:exported="false" />
+
         <activity
             android:name=".ContactActivity"
             android:exported="false" />
@@ -50,6 +51,18 @@
             android:exported="false" />
         <activity
             android:name=".GenCampsiteActivity"
+            android:exported="false" />
+        <activity
+            android:name=".EastTentCampsiteActivity"
+            android:exported="false" />
+        <activity
+            android:name=".WestTentCampsiteActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DaypassActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Annualpass"
             android:exported="false" />
         <activity
             android:name=".EastRVCampsiteActivity"
