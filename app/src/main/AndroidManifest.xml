@@ -15,6 +15,13 @@
         <activity
             android:name=".GenInfoActivity"
             android:exported="false" />
+        <activity android:name=".GenCampsiteActivity"
+            android:exported="false"/>
+        <activity android:name=".EastRVCampsiteActivity"
+            android:exported="false"/>
+        <activity android:name=".WestRVCampsiteActivity"
+        android:exported="false"/>
+
 
         <meta-data
             android:name="com.google.android.geo.API_KEY"
