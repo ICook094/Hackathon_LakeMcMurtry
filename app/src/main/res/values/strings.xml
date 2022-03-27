@@ -6,6 +6,17 @@
     <string name="title_support">Shop</string>
     <string name="title_about">About</string>
 
+    <!-- Map Strings -->
+    <string-array name="map_spinner">
+        <item>West Side Recreational Area</item>
+        <item>East Side Recreational Area</item>
+        <item>West Trail Maps</item>
+        <item>East Trail Maps</item>
+        <item>Disc Golf Course Maps</item>
+        <item>Lake Map</item>
+        <item>Fish Attractor Map</item>
+    </string-array>
+
     <!-- Home Strings -->
     <string name="text_textlakeMission">The mission of Lake McMurtry Friends is to enrich the quality of life by providing opportunities to engage in sustainable outdoor recreation, environmental education, and nature conservation.</string>
     <string name="text_textContactLabel">Contact Information</string>
@@ -20,5 +31,6 @@
     <string name="text_emailWestCampHost">camphost@lakemcmurtry.org</string>
     <string name="text_textStillwaterPolice">Stillwater Police Department</string>
     <string name="text_phoneStillwaterPolice">405-372-4171 </string>
+
 
 </resources>
