@@ -1,16 +1,19 @@
 package com.example.hackathon_lakemcmurtry.ui.map
 
+import android.R
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.TextView
+import android.widget.ArrayAdapter
+import android.widget.Spinner
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
 import com.example.hackathon_lakemcmurtry.databinding.FragmentMapBinding
 import com.google.android.gms.maps.*
 import com.google.android.gms.maps.model.*
 import com.google.maps.android.data.kml.*
+
 
 class MapFragment : Fragment() {
 

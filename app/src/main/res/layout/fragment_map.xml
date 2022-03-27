@@ -17,7 +17,7 @@
         app:cameraTilt="30"
         app:cameraZoom="15"
         app:mapType="hybrid"
-        app:uiCompass="true"
+        app:uiCompass="false"
         tools:layout_editor_absoluteX="0dp"
         tools:layout_editor_absoluteY="-91dp" />
 
