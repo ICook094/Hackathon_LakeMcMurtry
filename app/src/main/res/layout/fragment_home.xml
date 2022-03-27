@@ -10,6 +10,7 @@
     <ScrollView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
@@ -26,8 +27,8 @@
                 android:alpha="250"
                 android:src="@drawable/lakecloudview"
                 app:layout_constraintTop_toTopOf="parent"
-                tools:layout_editor_absoluteX="0dp"
-                tools:ignore="ContentDescription" />
+                tools:ignore="ContentDescription"
+                tools:layout_editor_absoluteX="0dp" />
 
             <TextView
                 android:id="@+id/textLakeMission"
@@ -43,6 +44,7 @@
                 android:textStyle="bold"
                 android:visibility="visible"
                 app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/imageView" />
 
             <TextView
@@ -52,12 +54,14 @@
                 android:layout_marginStart="68dp"
                 android:layout_marginTop="50dp"
                 android:text="@string/text_textContactLabel"
+                android:textAlignment="center"
                 android:textAllCaps="true"
                 android:textAppearance="@style/TextAppearance.AppCompat.Display2"
                 android:textColor="@color/design_default_color_secondary_variant"
                 android:textSize="24sp"
                 android:textStyle="bold"
                 app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/imageView" />
 
             <TextView
@@ -69,6 +73,7 @@
                 android:text="@string/text_phoneMain"
                 android:textColor="@color/design_default_color_secondary_variant"
                 app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/textContactLabel" />
 
             <TextView
@@ -80,6 +85,7 @@
                 android:text="@string/text_emailMain"
                 android:textColor="@color/design_default_color_secondary_variant"
                 app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/phoneMain" />
 
             <TextView
@@ -94,6 +100,7 @@
                 android:textColor="@color/design_default_color_secondary_variant"
                 android:textStyle="bold"
                 app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/emailMain" />
 
             <TextView
@@ -105,6 +112,7 @@
                 android:text="@string/text_phoneEastCampHost"
                 android:textColor="@color/design_default_color_secondary_variant"
                 app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/textEastCampHost" />
 
             <TextView
@@ -116,6 +124,7 @@
                 android:text="@string/text_emailEastCampHost"
                 android:textColor="@color/design_default_color_secondary_variant"
                 app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/phoneEastCampHost" />
 
             <TextView
@@ -130,6 +139,7 @@
                 android:textColor="@color/design_default_color_secondary_variant"
                 android:textStyle="bold"
                 app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/emailEastCampHost" />
 
             <TextView
@@ -141,6 +151,7 @@
                 android:text="@string/text_emailWestCampHost"
                 android:textColor="@color/design_default_color_secondary_variant"
                 app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/phoneWestCampHost" />
 
             <TextView
@@ -152,6 +163,7 @@
                 android:text="@string/text_phoneWestCampHost"
                 android:textColor="@color/design_default_color_secondary_variant"
                 app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/textWestCampHost" />
 
             <TextView
@@ -166,6 +178,7 @@
                 android:textColor="@color/design_default_color_secondary_variant"
                 android:textStyle="bold"
                 app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/emailWestCampHost" />
 
             <TextView
@@ -177,6 +190,7 @@
                 android:text="@string/text_phoneStillwaterPolice"
                 android:textColor="@color/design_default_color_secondary_variant"
                 app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/textEmergencyContact" />
 
             <View
