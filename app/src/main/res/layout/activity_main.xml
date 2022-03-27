@@ -9,12 +9,13 @@
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/fab"
-        android:layout_width="wrap_content"
+        android:layout_width="56dp"
         android:layout_height="wrap_content"
-        android:layout_gravity="end|bottom"
+        android:layout_gravity="right|top|end"
         android:layout_margin="16dp"
-        android:src="@drawable/logo"
-        tools:layout_editor_absoluteX="339dp"
+        android:src="@android:drawable/ic_dialog_alert"
+        android:theme="@style/CardView.Dark"
+        app:layout_constraintEnd_toEndOf="parent"
         tools:layout_editor_absoluteY="16dp" />
 
     <com.google.android.material.bottomnavigation.BottomNavigationView

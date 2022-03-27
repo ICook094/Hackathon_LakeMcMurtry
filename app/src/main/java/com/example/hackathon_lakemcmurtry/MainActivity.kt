@@ -4,7 +4,9 @@ import android.content.Intent
 import android.os.Bundle
 import android.view.View
 import android.app.Activity
+import android.net.Uri
 import android.widget.RadioButton
+import android.widget.Toast
 import com.google.android.material.bottomnavigation.BottomNavigationView
 import androidx.appcompat.app.AppCompatActivity
 import androidx.navigation.findNavController
@@ -12,6 +14,7 @@ import androidx.navigation.ui.AppBarConfiguration
 import androidx.navigation.ui.setupActionBarWithNavController
 import androidx.navigation.ui.setupWithNavController
 import com.example.hackathon_lakemcmurtry.databinding.ActivityMainBinding
+import com.google.android.material.snackbar.Snackbar
 
 //const val EXTRA_MESSAGE = "com.example.hackathon_lakemcmurtry.MESSAGE"
 
@@ -38,7 +41,13 @@ class MainActivity : AppCompatActivity() {
         setupActionBarWithNavController(navController, appBarConfiguration)
         navView.setupWithNavController(navController)
 
-//        val fab: View = findViewById(com.example.hackathon_lakemcmurtry.R.)
+        val fab: View = findViewById(com.example.hackathon_lakemcmurtry.R.id.fab)
+        fab.setOnClickListener { view ->
+            Toast.makeText(getApplicationContext(), "Contacting Emergency Services", Toast.LENGTH_LONG).show()
+            val intent : Intent = Intent(Intent.ACTION_DIAL)
+            intent.setData(Uri.parse("tel:18329204035"))
+            startActivity(intent)
+        }
 //        val mapspinner: Spinner = findViewById(R.id.map_spinner)!!
 //        ArrayAdapter.createFromResource(
 //            this,
