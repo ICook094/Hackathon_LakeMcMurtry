@@ -57,7 +57,7 @@ class MainActivity : AppCompatActivity() {
         }
         startActivity(intent)
     }
-    fun genCampsite(view: View) {
+    fun genCampsiteActivity(view: View) {
         val intent = Intent(this, GenCampsiteActivity::class.java).apply {
            // putExtra(EXTRA_MESSAGE, "test")
         }
