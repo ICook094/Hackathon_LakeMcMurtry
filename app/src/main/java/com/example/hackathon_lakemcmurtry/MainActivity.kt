@@ -11,11 +11,9 @@ import androidx.navigation.ui.setupActionBarWithNavController
 import androidx.navigation.ui.setupWithNavController
 import com.example.hackathon_lakemcmurtry.databinding.ActivityMainBinding
 
-const val EXTRA_MESSAGE = "com.example.hackathon_lakemcmurtry.MESSAGE"
+//const val EXTRA_MESSAGE = "com.example.hackathon_lakemcmurtry.MESSAGE"
 
 class MainActivity : AppCompatActivity() {
-
-    
 
     private lateinit var binding: ActivityMainBinding
 
@@ -55,11 +53,21 @@ class MainActivity : AppCompatActivity() {
         //val editText = findViewById<EditText>(R.id.editTextTextPersonName)
         //val message = editText.text.toString()
         val intent = Intent(this, GenInfoActivity::class.java).apply {
-            putExtra(EXTRA_MESSAGE, "test")
+            //  putExtra(EXTRA_MESSAGE, "test")
         }
         startActivity(intent)
     }
+    fun genCampsiteActivity(view: View) {
+        val intent1 = Intent(this, GenCampsiteActivity::class.java).apply {
+           // putExtra(EXTRA_MESSAGE, "test")
+        }
+        startActivity(intent1)
+    }
 
+    fun getRules(view: View) {
+        val intent2 = Intent(this, RuleActivity::class.java).apply {
 
-
+        }
+        startActivity(intent2)
+    }
 }
