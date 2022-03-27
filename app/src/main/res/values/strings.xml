@@ -15,9 +15,15 @@
         <item>Disc Golf Course Maps</item>
         <item>Lake Map</item>
         <item>Fish Attractor Map</item>
-
-
     </string-array>
+
+    <string name="campsitebutton" >Select Campsite</string>
+    <string name="erv" >East RV Campsites</string>
+    <string name="wrv" >West RV Campsites</string>
+    <string name="etent" >East Tent Campsites</string>
+    <string name="wtent" >West Tent Campsites</string>
+    <string name = "daypass" > Purchase Day Pass</string>
+    <string name="annual" > Purchase an Annual Pass</string>
     <string name = "selectcampsite">Select a Campsite</string>
     <string-array name="RSVP">
         <item>East RV Campsites</item>
@@ -60,5 +66,18 @@
     <string name="text_purpose">Lake McMurtry Friends, Inc. was formed to manage and protect the lake, but more than that we are organized to promote outdoor recreation and leisure, scientific and educational study, and community involvement. We are a small group of individuals who want to see Lake McMurtry succeed and continue to be available to the general public for generations to come. After all this park belongs to the people of our community and we wish to represent that each and every day!
 </string>
     <string name="text_disclaimer">Lake McMurtry Friends, Inc. is a private 501 (c)3  non-profit organization.</string>
+    //Rules
+    <string name="text_rules">- Permits are required for all vehicles and activities within the park.
+        "\n"- Check In 3pm , Check out 1pm
+        "\n""\t"- All sites are reserveable online 24/7 therefore you must check in with park staff to camp.
+        "\n"- Alcoholic beverages are prohibited on all Lake McMurtry property.
+        "\n"- Daily permits expire at 10:00 pm.
+        "\n"- Quiet hours are from 10:00 pm to 7:00 am. Generators are generally not permitted, please check with park staff for more information.
+        "\n"- The discharging of firearms, BB guns, paintball guns, bow and arrows, sling shots or any devices that use burning powder, explosives, compressed gases, etc. is prohibited.
+        "\n"- Pets must be kept on leashes no longer than 10 feet and under control at all times.
+        "\n"- Fireworks and bonfires are prohibited.
+        "\n"- Confetti is prohibited.
+        "\n"- Removal of plants, animals, rocks, downed timber, artifacts or relics is prohibited without written permission from Lake McMurtry Friends, Inc. and/or the City of Stillwater.
+        "\n"- The use of ATVs, LSVs, UTVs, and golf carts is prohibited on Lake McMurtry property.</string>
 
 </resources>
