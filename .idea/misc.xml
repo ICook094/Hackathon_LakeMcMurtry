@@ -7,11 +7,12 @@
         <entry key="..\:/Users/isabe/AndroidStudioProjects/Hackathon_LakeMcMurtry/app/src/main/res/drawable/ic_dashboard_black_24dp.xml" value="0.2265" />
         <entry key="..\:/Users/isabe/AndroidStudioProjects/Hackathon_LakeMcMurtry/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2265" />
         <entry key="..\:/Users/isabe/AndroidStudioProjects/Hackathon_LakeMcMurtry/app/src/main/res/drawable/ic_notifications_black_24dp.xml" value="0.2265" />
-        <entry key="..\:/Users/isabe/AndroidStudioProjects/Hackathon_LakeMcMurtry/app/src/main/res/layout/activity_main.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/isabe/AndroidStudioProjects/Hackathon_LakeMcMurtry/app/src/main/res/layout/activity_geninfo.xml" value="0.146875" />
+        <entry key="..\:/Users/isabe/AndroidStudioProjects/Hackathon_LakeMcMurtry/app/src/main/res/layout/activity_main.xml" value="0.2" />
         <entry key="..\:/Users/isabe/AndroidStudioProjects/Hackathon_LakeMcMurtry/app/src/main/res/layout/fragment_RSVPParking.xml" value="0.10740740740740741" />
         <entry key="..\:/Users/isabe/AndroidStudioProjects/Hackathon_LakeMcMurtry/app/src/main/res/layout/fragment_about.xml" value="0.1" />
         <entry key="..\:/Users/isabe/AndroidStudioProjects/Hackathon_LakeMcMurtry/app/src/main/res/layout/fragment_dashboard.xml" value="0.22826086956521738" />
-        <entry key="..\:/Users/isabe/AndroidStudioProjects/Hackathon_LakeMcMurtry/app/src/main/res/layout/fragment_home.xml" value="0.2" />
+        <entry key="..\:/Users/isabe/AndroidStudioProjects/Hackathon_LakeMcMurtry/app/src/main/res/layout/fragment_home.xml" value="0.25196850393700787" />
         <entry key="..\:/Users/isabe/AndroidStudioProjects/Hackathon_LakeMcMurtry/app/src/main/res/layout/fragment_map.xml" value="0.22826086956521738" />
         <entry key="..\:/Users/isabe/AndroidStudioProjects/Hackathon_LakeMcMurtry/app/src/main/res/layout/fragment_menu.xml" value="0.22826086956521738" />
         <entry key="..\:/Users/isabe/AndroidStudioProjects/Hackathon_LakeMcMurtry/app/src/main/res/layout/fragment_moreInformation.xml" value="0.22826086956521738" />
@@ -19,19 +20,11 @@
         <entry key="..\:/Users/isabe/AndroidStudioProjects/Hackathon_LakeMcMurtry/app/src/main/res/layout/fragment_rsvpparking.xml" value="0.1" />
         <entry key="..\:/Users/isabe/AndroidStudioProjects/Hackathon_LakeMcMurtry/app/src/main/res/layout/fragment_search.xml" value="0.22826086956521738" />
         <entry key="..\:/Users/isabe/AndroidStudioProjects/Hackathon_LakeMcMurtry/app/src/main/res/layout/fragment_support.xml" value="0.1" />
+        <entry key="..\:/Users/isabe/AndroidStudioProjects/Hackathon_LakeMcMurtry/app/src/main/res/layout/grid_amenities.xml" value="0.1" />
+        <entry key="..\:/Users/isabe/AndroidStudioProjects/Hackathon_LakeMcMurtry/app/src/main/res/layout/row_model.xml" value="0.10465116279069768" />
         <entry key="..\:/Users/isabe/AndroidStudioProjects/Hackathon_LakeMcMurtry/app/src/main/res/menu/bottom_nav_menu.xml" value="0.1" />
         <entry key="..\:/Users/isabe/AndroidStudioProjects/Hackathon_LakeMcMurtry/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.2265" />
         <entry key="..\:/Users/isabe/AndroidStudioProjects/Hackathon_LakeMcMurtry/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.2265" />
-        <entry key="app/src/main/res/layout/activity_genCampsites.xml" value="0.1" />
-        <entry key="app/src/main/res/layout/activity_geninfo.xml" value="0.281593654466712" />
-        <entry key="app/src/main/res/layout/activity_rules.xml" value="0.1" />
-        <entry key="app/src/main/res/layout/fragment_about.xml" value="0.1" />
-        <entry key="app/src/main/res/layout/fragment_campsites.xml" value="0.1" />
-        <entry key="app/src/main/res/layout/fragment_east_map.xml" value="0.1" />
-        <entry key="app/src/main/res/layout/fragment_eastrv.xml" value="0.1" />
-        <entry key="app/src/main/res/layout/fragment_rsvpparking.xml" value="0.1" />
-        <entry key="app/src/main/res/layout/fragment_westrv.xml" value="0.1" />
-        <entry key="app/src/main/res/layout/list_rsvpparking.xml" value="0.1" />
       </map>
     </option>
   </component>

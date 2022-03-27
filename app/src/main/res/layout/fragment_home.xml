@@ -45,12 +45,53 @@
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/imageView" />
 
+            <FrameLayout
+                android:id="@+id/goToLakeDirections"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="50dp">
+
+                <com.google.android.material.floatingactionbutton.FloatingActionButton
+                    android:id="@+id/buttonToLake"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="50dp"
+                    android:clickable="true"
+                    android:onClick="onClickOpenDirectionsToLake"
+                    app:srcCompat="@android:drawable/ic_menu_mylocation"
+                    tools:ignore="SpeakableTextPresentCheck"
+                    tools:layout_editor_absoluteX="200dp"
+                    tools:layout_editor_absoluteY="209dp" />
+
+                <TextView
+                    android:id="@+id/lakeLocation"
+                    android:layout_width="234dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="150dp"
+                    android:layout_marginTop="10dp"
+                    android:lineSpacingExtra="8sp"
+                    android:text="@string/text_Location"
+                    android:textAlignment="center"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                    android:textSize="16sp" />
+            </FrameLayout>
+
+            <View
+                android:id="@+id/divider2"
+                android:layout_width="418dp"
+                android:layout_height="10dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="20dp"
+                android:background="?android:attr/listDivider"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="626dp" />
+
             <TextView
                 android:id="@+id/textContactLabel"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="68dp"
-                android:layout_marginTop="50dp"
+                android:layout_marginTop="20dp"
                 android:text="@string/text_textContactLabel"
                 android:textAllCaps="true"
                 android:textAppearance="@style/TextAppearance.AppCompat.Display2"
@@ -181,7 +222,7 @@
 
             <View
                 android:id="@+id/divider"
-                android:layout_width="409dp"
+                android:layout_width="418dp"
                 android:layout_height="10dp"
                 android:layout_gravity="center_horizontal"
                 android:layout_margin="20dp"
