@@ -89,7 +89,9 @@
         </string>
     <string name="rspp">RSVP</string>
 
-
+<string name="donate">Donate</string>
+    <string name="Products">Products</string>
+    <string name="Egift">E-Gift</string>
     <string name="campsitebutton">Select Campsite</string>
     <string name="erv">East RV Campsites</string>
     <string name="wrv">West RV Campsites</string>

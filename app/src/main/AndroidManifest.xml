@@ -35,6 +35,9 @@
             android:name=".ContactActivity"
             android:exported="false" />
         <activity
+            android:name=".Donateallurmoneytomeordie"
+            android:exported="false"/>
+        <activity
             android:name=".PartnerActivity"
             android:exported="false" />
         <activity
@@ -45,6 +48,9 @@
             android:exported="false" />
         <activity
             android:name=".RulesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MapSpinnerActivity"
             android:exported="false" />
         <activity
             android:name=".GenInfoActivity"
